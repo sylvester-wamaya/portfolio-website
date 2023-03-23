@@ -1,142 +1,150 @@
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    margin: 0;
-    color: #FFFFFF;
-    font-family: inter, sans-serif;
+
+body {
+  margin: 0;
+  color: #fff;
+  font-family: inter, sans-serif;
 }
-header{
-    display: flex;
-    margin: auto;
-    background-color:#3E3C3C;
-    font-size: 1.5rem;
-    font-weight: bold;
-    align-items: center;
-    justify-content: space-between;
 
+header {
+  display: flex;
+  margin: auto;
+  background-color: #3e3c3c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
 }
-header img{
-    margin-right: 2rem;
-    }
 
-  @media screen and (max-width: 768px){
-        header ul{
-            display: none;
-        }
+header img {
+  margin-right: 2rem;
+}
 
-        #logo{
-            margin-left: 2rem;
-            padding: 2rem 0;
-        }
-        #headline{
-            flex-direction: column;
-
-            background-image: url(media/Group.png);
-            background-position-y: bottom;
-
-        }
-        #social{
-            flex-direction: row;
-            order: 2;
-            margin: inherit 0;
-            padding-left: 0;
-            padding-right: 55%;
-            justify-content: start;
-            align-items: start;
-        }
-
-        #bio{
-            width: 75%;
-            margin-left: 2rem;
-        }
-        #social img{
-            margin-left: 0;
-            padding-left: 0;
-        }
-
-       
-    }
-  
-  @media screen and (min-width: 768px){
-    header img{
-        display: none;
-    }
-    #logo{
-        margin-left: 14rem;
-    }
+@media screen and (max-width: 768px) {
+  header ul {
+    display: none;
   }
 
-ul{
-    display: flex;
-    list-style: none;
-    padding: 0.7rem;
-    margin-top: inherit;
-    align-items: center;
-    justify-content: end;
-    margin-right: 14rem;
-   
-}
-li{
-    margin: 1rem 1.2rem;
-}
-li img{
-    height: 2rem;
-}
-#logo{
-    font-size: 2rem;
-    font-weight:bolder;
-    
-    
-}
-a{
-    text-decoration: none;
-    color: #FFFFFF;
-}
-a:hover{
-    background-color:#FFF5E1;
-    border: solid #F55800;
-    padding: 5px;
-    color: #F55800;
-}
-section{
-    background-image: url(media/Illustration-header.png);
-    background-color: #1C1A19;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 25%;
-    max-width: 100%;
-    background-position: right;
-    display: flex;
-    padding: 10% 0 20% 0;
-    
-}
-aside{
-    display: flex;
+  #logo {
+    margin-left: 2rem;
+    padding: 2rem 0;
+  }
+
+  #headline {
     flex-direction: column;
-    margin: 2rem 7rem 0 2rem;
-    align-self: center;
-    
-}
-aside img{
-    margin: 1rem;
+    background-image: url(media/Group.png);
+    background-position-y: bottom;
+  }
+
+  #social {
+    flex-direction: row;
+    order: 2;
+    margin: inherit 0;
+    padding-left: 0;
+    padding-right: 55%;
+    justify-content: start;
+    align-items: start;
+  }
+
+  #bio {
+    width: 75%;
+    margin-left: 2rem;
+  }
+
+  #social img {
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
 
-h1{
-    color:#F55800;
-    font-family: 'Crete Round';
-    font-size:600%;
-    margin-bottom: 0%;
+@media screen and (min-width: 768px) {
+  header img {
+    display: none;
+  }
+
+  #logo {
+    margin-left: 14rem;
+  }
 }
-h2{
-    font-weight: 50rem;
-    font-size: 3.2rem;
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0.7rem;
+  margin-top: inherit;
+  align-items: center;
+  justify-content: end;
+  margin-right: 14rem;
 }
-div{
-    width: 45%;
+
+li {
+  margin: 1rem 1.2rem;
 }
-p{
-    font-size: 200%;
-    line-height: 150%;
+
+li img {
+  height: 2rem;
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #fff5e1;
+  border: solid #f55800;
+  padding: 5px;
+  color: #f55800;
+}
+
+section {
+  background-image: url(media/Illustration-header.png);
+  background-color: #1c1a19;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25%;
+  max-width: 100%;
+  background-position: right;
+  display: flex;
+  padding: 10% 0 20% 0;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 7rem 0 2rem;
+  align-self: center;
+}
+
+aside img {
+  margin: 1rem;
+}
+
+h1 {
+  color: #f55800;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 600%;
+  margin-bottom: 0%;
+}
+
+h2 {
+  font-weight: 50rem;
+  font-size: 3.2rem;
+}
+
+div {
+  width: 45%;
+}
+
+p {
+  font-size: 200%;
+  line-height: 150%;
 }
