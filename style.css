@@ -29,6 +29,32 @@ header img{
             margin-left: 2rem;
             padding: 2rem 0;
         }
+        #headline{
+            flex-direction: column;
+
+            background-image: url(media/Group.png);
+            background-position-y: bottom;
+
+        }
+        #social{
+            flex-direction: row;
+            order: 2;
+            margin: inherit 0;
+            padding-left: 0;
+            padding-right: 55%;
+            justify-content: start;
+            align-items: start;
+        }
+
+        #bio{
+            width: 75%;
+            margin-left: 2rem;
+        }
+        #social img{
+            margin-left: 0;
+            padding-left: 0;
+        }
+
        
     }
   
@@ -76,20 +102,22 @@ a:hover{
 section{
     background-image: url(media/Illustration-header.png);
     background-color: #1C1A19;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position-x: right;
     background-size: contain;
     height: 25%;
+    max-width: 100%;
+    background-position: right;
     display: flex;
-    padding: 15rem 73rem 25rem 4rem ;
- 
+    padding: 10% 0 20% 0;
     
 }
 aside{
     display: flex;
     flex-direction: column;
-    margin-right: 5rem;
+    margin: 2rem 7rem 0 2rem;
     align-self: center;
+    
 }
 aside img{
     margin: 1rem;
@@ -98,12 +126,17 @@ aside img{
 h1{
     color:#F55800;
     font-family: 'Crete Round';
-    font: size 6rem;;
-    width: max-content;
-    line-height: 8.2rem;
-    font-weight: 50rem;
+    font-size:600%;
     margin-bottom: 0%;
 }
 h2{
-    font-weight: 700;
+    font-weight: 50rem;
+    font-size: 3.2rem;
+}
+div{
+    width: 45%;
+}
+p{
+    font-size: 200%;
+    line-height: 150%;
 }
