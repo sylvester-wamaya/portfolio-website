@@ -1,12 +1,12 @@
 body{
     margin: 0;
+    color: #FFFFFF;
+    font-family: inter, sans-serif;
 }
 header{
     display: flex;
     background-color:#3E3C3C;
-    color: #FFFFFF;
     font-size: 15px;
-    font-family: inter, sans-serif;
     font-weight: bold;
     justify-content: space-between;
     align-items: center;
@@ -42,4 +42,38 @@ a:hover{
     border: solid #F55800;
     padding: 5px;
     color: #F55800;
+}
+section{
+    background-image: url(media/Illustration-header.png);
+    background-color: #1C1A19;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    height: 25%;
+    display: flex;
+    padding: 150px 730px 250px 40px ;
+ 
+    
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-self: center;
+}
+aside img{
+    margin: 10px;
+}
+
+h1{
+    color:#F55800;
+    font-family: 'Crete Round';
+    font-size:60px;
+    width: max-content;
+    line-height: 82px;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+h2{
+    font-weight: 700;
 }
