@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 body{
     margin: 0;
     color: #FFFFFF;
@@ -5,32 +8,59 @@ body{
 }
 header{
     display: flex;
+    margin: auto;
     background-color:#3E3C3C;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: bold;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
 }
+header img{
+    margin-right: 2rem;
+    }
+
+  @media screen and (max-width: 768px){
+        header ul{
+            display: none;
+        }
+
+        #logo{
+            margin-left: 2rem;
+            padding: 2rem 0;
+        }
+       
+    }
+  
+  @media screen and (min-width: 768px){
+    header img{
+        display: none;
+    }
+    #logo{
+        margin-left: 14rem;
+    }
+  }
+
 ul{
     display: flex;
     list-style: none;
-    padding: 7px;
+    padding: 0.7rem;
     margin-top: inherit;
     align-items: center;
     justify-content: end;
-    margin-right: 140px;
+    margin-right: 14rem;
+   
 }
 li{
-    margin: 10px 12px;
+    margin: 1rem 1.2rem;
 }
 li img{
-    height: 20px;
+    height: 2rem;
 }
 #logo{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight:bolder;
-    margin-left: 140px;
+    
     
 }
 a{
@@ -51,27 +81,27 @@ section{
     background-size: contain;
     height: 25%;
     display: flex;
-    padding: 150px 730px 250px 40px ;
+    padding: 15rem 73rem 25rem 4rem ;
  
     
 }
 aside{
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    margin-right: 5rem;
     align-self: center;
 }
 aside img{
-    margin: 10px;
+    margin: 1rem;
 }
 
 h1{
     color:#F55800;
     font-family: 'Crete Round';
-    font-size:60px;
+    font: size 6rem;;
     width: max-content;
-    line-height: 82px;
-    font-weight: 500;
+    line-height: 8.2rem;
+    font-weight: 50rem;
     margin-bottom: 0%;
 }
 h2{
