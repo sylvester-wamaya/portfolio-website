@@ -34,7 +34,7 @@ nav img {
   }
 
   #headline {
-    flex-direction: column;    
+    flex-direction: column;
     background-position-y: bottom;
     background-size: 25%;
   }
@@ -47,26 +47,23 @@ nav img {
     justify-content: start;
     align-items: start;
   }
-  #social{
-    order: 2;
-  }
 
   #bio {
     width: 75%;
     margin-left: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   #social li {
     margin: 0 0.5rem;
     padding-left: 0;
   }
-  #social{
+
+  #social {
     margin-top: 0;
     padding-top: 0;
-  }
-  #bio{
-    margin-bottom: 0;
-    padding-bottom: 0;
+    order: 2;
   }
 }
 
@@ -94,6 +91,10 @@ nav li {
   margin: 1rem 1.2rem;
 }
 
+aside img {
+  margin: 1rem;
+}
+
 nav li img {
   height: 2rem;
 }
@@ -114,8 +115,9 @@ nav a:hover {
   padding: 5px;
   color: #f55800;
 }
-img:hover{
-  border:solid #f55800;
+
+img:hover {
+  border: solid #f55800;
   background-color: #fff5e1;
   padding: 5px;
 }
@@ -125,7 +127,7 @@ section {
   background-color: #1c1a19;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size:40%;
+  background-size: 40%;
   height: 25%;
   max-width: 100%;
   background-position: right;
@@ -139,10 +141,6 @@ aside ul {
   margin: 2rem 7rem 0 2rem;
   align-self: center;
   list-style: none;
-}
-
-aside img {
-  margin: 1rem;
 }
 
 h1 {
@@ -165,6 +163,7 @@ p {
   font-size: 200%;
   line-height: 150%;
 }
-aside{
+
+aside {
   margin-top: 10em;
 }
