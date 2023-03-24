@@ -6,9 +6,10 @@ body {
   margin: 0;
   color: #fff;
   font-family: inter, sans-serif;
+  max-width: 100%;
 }
 
-header {
+nav {
   display: flex;
   margin: auto;
   background-color: #3e3c3c;
@@ -18,12 +19,12 @@ header {
   justify-content: space-between;
 }
 
-header img {
+nav img {
   margin-right: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-  header ul {
+  #menu {
     display: none;
   }
 
@@ -33,19 +34,21 @@ header img {
   }
 
   #headline {
-    flex-direction: column;
-    background-image: url(media/Group.png);
+    flex-direction: column;    
     background-position-y: bottom;
+    background-size: 25%;
   }
 
-  #social {
+  #social ul {
     flex-direction: row;
-    order: 2;
     margin: inherit 0;
     padding-left: 0;
     padding-right: 55%;
     justify-content: start;
     align-items: start;
+  }
+  #social{
+    order: 2;
   }
 
   #bio {
@@ -53,14 +56,22 @@ header img {
     margin-left: 2rem;
   }
 
-  #social img {
-    margin-left: 0;
+  #social li {
+    margin: 0 0.5rem;
     padding-left: 0;
+  }
+  #social{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #bio{
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
 @media screen and (min-width: 768px) {
-  header img {
+  nav img {
     display: none;
   }
 
@@ -69,7 +80,7 @@ header img {
   }
 }
 
-ul {
+nav ul {
   display: flex;
   list-style: none;
   padding: 0.7rem;
@@ -79,11 +90,11 @@ ul {
   margin-right: 14rem;
 }
 
-li {
+nav li {
   margin: 1rem 1.2rem;
 }
 
-li img {
+nav li img {
   height: 2rem;
 }
 
@@ -97,11 +108,16 @@ a {
   color: #fff;
 }
 
-a:hover {
+nav a:hover {
   background-color: #fff5e1;
   border: solid #f55800;
   padding: 5px;
   color: #f55800;
+}
+img:hover{
+  border:solid #f55800;
+  background-color: #fff5e1;
+  padding: 5px;
 }
 
 section {
@@ -109,7 +125,7 @@ section {
   background-color: #1c1a19;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:40%;
   height: 25%;
   max-width: 100%;
   background-position: right;
@@ -117,11 +133,12 @@ section {
   padding: 10% 0 20% 0;
 }
 
-aside {
+aside ul {
   display: flex;
   flex-direction: column;
   margin: 2rem 7rem 0 2rem;
   align-self: center;
+  list-style: none;
 }
 
 aside img {
@@ -147,4 +164,7 @@ div {
 p {
   font-size: 200%;
   line-height: 150%;
+}
+aside{
+  margin-top: 10em;
 }
