@@ -3,10 +3,12 @@ html {
 }
 
 body {
-  margin: auto;
+  margin: 0;
   font-family: inter, sans-serif;
-  
+  width: 100%;
+  overflow-x: hidden;
 }
+
 /* Nav bar styling */
 nav {
   display: flex;
@@ -26,20 +28,22 @@ nav {
   margin: 1.2rem;
   font-weight: 600;
   font-size: 1.5rem;
+  
 }
 #logo{
  font-weight: 700;
   margin-left: 15rem;
   font-size: 2rem;
 }
-#logo{
-  text-decoration: none;
-
-}
 
 #nav-icon{
   padding: 2rem;
   margin-right: 12rem;
+}
+
+.nav-item a, #navbar a{
+  text-decoration: none;
+  color: #fff;
 }
 @media screen and (min-width: 768px) {
 #menu-icon{
@@ -98,13 +102,16 @@ width: 47%;
   font-size: 600%;
   margin-bottom: 0%;
 }
-bio h2 {
-  font-weight: 70rem;
+#bio h2 {
+  font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.2rem;
 }
 .no-style-deco{
   list-style: none;
+}
+.white{
+  color: #fff;
 }
 
 
@@ -120,6 +127,7 @@ bio h2 {
   }
 /* Home section mobile styling */
   #home {
+    display: flex;
     flex-direction: column;
     background-position-y: bottom;
     background-size: 25%;
@@ -129,9 +137,7 @@ bio h2 {
     display: flex;
     flex-direction: row;
     margin: inherit 0;
-    padding-left: 0;
-    padding-right: 55%;
-    justify-content: start;
+    padding-left: 0;     
     
   }
 
@@ -152,16 +158,16 @@ bio h2 {
     padding-top: 0;
     order: 2;
     
+        
   }
   
-}
-
 /* Styling works section */
 main{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
+  padding: 2%;
 }
 
 .title{
@@ -202,6 +208,7 @@ margin-top: 1rem;
   row-gap: 0.1rem;
   align-items: center;
   justify-content: center;
+  
 }
 
 
@@ -215,12 +222,15 @@ main img{
     
     text-align: center;
   }
-  .grid-item p{
+  .text{
     font-size: 1.6rem;
     font-weight: 400;  
     margin: 2rem;
   
     
+  }
+  .grid-item h2{
+    margin: 2rem;
   }
 
 
@@ -233,15 +243,13 @@ main img{
 }
 
 
-.white{
-  color: #fff;
-}
+
 button{
   padding: 1rem 1.2rem;
   font-weight: 500;
   border: solid #8993A4;
   margin: 1.2rem;
-  
+  border: none;
   background-color: inherit;
   
   
@@ -251,11 +259,17 @@ button{
   width: 100%;
   background-color: #FF6B00;
   padding: 1.2rem;
+  margin-left: 2.4rem;
   font-weight: 700;
   width: inherit;
+  color:#fff
   
   
   
+}
+
+article button{
+  border: solid #8993A4;
 }
 .btn{
   display: flex;
@@ -269,7 +283,55 @@ li .orange-button{
 }
 li button{
   background: rgba(255, 255, 255, 0.24);
+  color: #fff;
 }
+
+/* STyling the About me section */
+#about{
+  color: #fff;
+  background-color: #1C1A19;
+}
+#intro{
+background-image: url("media/about-me.png");
+background-repeat: no-repeat;
+background-position: right;
+background-position-y: bottom;
+
+margin-top: 10rem;
+padding-top: 12rem;
+padding-bottom: 22rem;
+
+
+}
+#about hr{
+  color: #fff;
+  margin: 0;
+}
+#cv{
+ display: grid;
+ grid-template-rows: auto auto auto;
+ justify-content: center;
+ text-align: center;
+ list-style: none;
+ 
+}
+
+.list-item{
+  margin: 1.6rem 0;
+  padding: 2rem 15rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+#cv img{
+  margin-right: 2rem;
+}
+
+
+  
+}
+
+
+
 
 
 
