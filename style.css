@@ -4,7 +4,6 @@ html {
 
 body {
   margin: 0;
-  color: #fff;
   font-family: inter, sans-serif;
   max-width: 100%;
 }
@@ -104,7 +103,7 @@ nav li img {
   font-weight: bolder;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #fff;
 }
@@ -116,7 +115,7 @@ nav a:hover {
   color: #f55800;
 }
 
-img:hover {
+ul img:hover {
   border: solid #f55800;
   background-color: #fff5e1;
   padding: 5px;
@@ -150,18 +149,20 @@ h1 {
   margin-bottom: 0%;
 }
 
-h2 {
+bio h2 {
   font-weight: 50rem;
   font-size: 3.2rem;
+  color: #fff;
 }
 
 div {
   width: 45%;
 }
 
-p {
+#bio p {
   font-size: 200%;
   line-height: 150%;
+  color: #fff;
 }
 
 aside {
