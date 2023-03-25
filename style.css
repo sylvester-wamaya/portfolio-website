@@ -23,7 +23,52 @@ nav {
   font-size: 2rem;
 }
 
-.nav-item a, header #logo {
+/* button:enabled{
+  padding: 1.2rem;
+  color: #fff;
+  background-color: #F55800;
+} */
+
+button:active {
+  padding: 1.2rem;
+  color: #fff;
+  background-color: #e05304;
+}
+
+button:hover {
+  padding: 1.2rem;
+  border: solid #f55800;
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+button:disabled {
+  padding: 1.2rem;
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+li button:active {
+  padding: 1.2rem;
+  color: #fff;
+  background-color: #e05304;
+}
+
+li button:hover {
+  padding: 1.2rem;
+  border: solid #f55800;
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+li button:disabled {
+  padding: 1.2rem;
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+.nav-item a,
+header #logo {
   text-decoration: none;
   color: #fff;
 }
@@ -123,6 +168,7 @@ nav {
 .white {
   color: #fff;
 }
+
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
   /* Mobile Navbar styling */
@@ -135,6 +181,8 @@ nav {
     margin: 1.2rem;
     padding: 1.2rem;
   }
+
+
 
   /* Home section mobile styling */
   #home {
@@ -197,7 +245,7 @@ nav {
     margin: 5rem 0;
   }
 
-.project {
+  .project {
     background: url("media/art.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,7 +308,7 @@ nav {
 
   .btn {
     display: grid;
-    grid-template-columns:  auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
     grid-template-rows: auto auto;
     align-items: end;
     justify-content: space-around;
@@ -288,7 +336,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
   }
 
   #intro {
@@ -324,29 +372,8 @@ nav {
   #cv img {
     margin-right: 2rem;
   }
-  button:hover,  li button:hover{
-    padding: 1.2rem;
-    border: solid #F55800;
-    color: #F55800;
-    background-color: #FFF5E1;
+
+  #about-me {
+    margin: 2.4rem;
   }
-  /* button:enabled{ 
-    padding: 1.2rem;  
-    color: #fff;
-    background-color: #F55800;
-  } */
-  button:active, li button:active{
-    padding: 1.2rem;  
-    color: #fff;
-    background-color: #E05304;
-  }
-  button:disabled,  li button:disabled{
-    padding: 1.2rem;  
-    color: #5B5957;
-    background-color: #F4F1F0;
-  }
-  #about-me{
-    margin: 2.4rem;;
-  }
- 
 }
