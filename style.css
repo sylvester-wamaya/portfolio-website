@@ -23,7 +23,7 @@ nav {
   font-size: 2rem;
 }
 
-.nav-item a {
+.nav-item a, header #logo {
   text-decoration: none;
   color: #fff;
 }
@@ -123,7 +123,6 @@ nav {
 .white {
   color: #fff;
 }
-
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
   /* Mobile Navbar styling */
@@ -171,7 +170,7 @@ nav {
   }
 
   /* Styling works section */
-  main {
+  #projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,20 +182,22 @@ nav {
     font-family: 'Crete Round', sans-serif;
     font-weight: 400;
     font-size: 3.2rem;
+    padding: 2rem 0;
     margin-top: 12rem 0 2.4rem 0;
   }
 
   #works {
     margin-top: 12rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
 
   hr {
     size: 1px;
     color: #1c1a19;
+    margin: 5rem 0;
   }
 
-  main li {
+.project {
     background: url("media/art.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,11 +214,11 @@ nav {
     justify-content: center;
   }
 
-  main img {
+  #projects img {
     width: 100%;
   }
 
-  main article {
+  #projects article {
     text-align: center;
   }
 
@@ -258,9 +259,15 @@ nav {
   }
 
   .btn {
-    display: flex;
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    align-items: end;
     justify-content: space-around;
     color: #1c1a19;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   li .orange-button {
@@ -268,7 +275,7 @@ nav {
     margin: 0;
   }
 
-  li button {
+  .project li button {
     background: rgba(255, 255, 255, 0.24);
     color: #fff;
   }
@@ -277,6 +284,11 @@ nav {
   #about {
     color: #fff;
     background-color: #1c1a19;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
   }
 
   #intro {
@@ -295,8 +307,8 @@ nav {
   }
 
   #cv {
-    display: grid;
-    grid-template-rows: auto auto auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     list-style: none;
@@ -312,4 +324,29 @@ nav {
   #cv img {
     margin-right: 2rem;
   }
+  button:hover,  li button:hover{
+    padding: 1.2rem;
+    border: solid #F55800;
+    color: #F55800;
+    background-color: #FFF5E1;
+  }
+  /* button:enabled{ 
+    padding: 1.2rem;  
+    color: #fff;
+    background-color: #F55800;
+  } */
+  button:active, li button:active{
+    padding: 1.2rem;  
+    color: #fff;
+    background-color: #E05304;
+  }
+  button:disabled,  li button:disabled{
+    padding: 1.2rem;  
+    color: #5B5957;
+    background-color: #F4F1F0;
+  }
+  #about-me{
+    margin: 2.4rem;;
+  }
+ 
 }
