@@ -5,7 +5,7 @@ html {
 body {
   margin: auto;
   font-family: inter, sans-serif;
-  height: 100%;
+  
 }
 /* Nav bar styling */
 nav {
@@ -151,7 +151,9 @@ bio h2 {
     margin-top: 0;
     padding-top: 0;
     order: 2;
+    
   }
+  
 }
 
 /* Styling works section */
@@ -159,7 +161,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center; 
 }
 
 .title{
@@ -167,13 +169,17 @@ main{
   font-weight: 400;
   font-size: 3.2rem;
   margin-top: 12rem 0 2.4rem 0;
-  width: inherit;
  
+ 
+}
+#works{
+  margin-top: 12rem;
+  margin-bottom: 10rem;
 }
 
 hr{ 
   size: 1px;
- inherit
+ 
   color: #1c1a19;
 }
 
@@ -181,26 +187,42 @@ main li{
   
   background: url("media/art.png");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size:cover; 
 background-position: center center;
+padding-top: 7.2rem;
+margin-top: 1rem;
+
+
+
+
 }
 .grid-container{
   display: grid;
-  grid-template-rows: auto auto;
-  row-gap: 0.2rem;
+  grid-template-rows: auto auto auto auto auto auto;
+  row-gap: 0.1rem;
   align-items: center;
   justify-content: center;
 }
+
+
 main img{
- width: auto;
- height: auto;
+ width: 100%;
+
+
+ 
   }
   main article{
-    width: 90%;
+    
+    text-align: center;
   }
-  .grid-item{
-    width: 90%;
+  .grid-item p{
+    font-size: 1.6rem;
+    font-weight: 400;  
+    margin: 2rem;
+  
+    
   }
+
 
 
 
@@ -219,7 +241,7 @@ button{
   font-weight: 500;
   border: solid #8993A4;
   margin: 1.2rem;
-  color: #fff;
+  
   background-color: inherit;
   
   
@@ -228,12 +250,27 @@ button{
   display: block;
   width: 100%;
   background-color: #FF6B00;
-  padding: 1.2rem 12rem;
+  padding: 1.2rem;
   font-weight: 700;
   width: inherit;
   
   
+  
 }
+.btn{
+  display: flex;
+  justify-content: space-around;
+  color: #1c1a19;
+}
+li .orange-button{
+  width: 100%;
+  margin: 0;
+ 
+}
+li button{
+  background: rgba(255, 255, 255, 0.24);
+}
+
 
 
 
