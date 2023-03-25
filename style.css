@@ -16,50 +16,56 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-#menu {
-  display: flex;
-  align-items: center;
-  justify-content: end;
 
-}
-
-.nav-item{
-  padding: 1rem 1.2rem;
-  margin: 1.2rem;
-  font-weight: 600;
-  font-size: 1.5rem;
-  
-}
-#logo{
- font-weight: 700;
+#logo {
+  font-weight: 700;
   margin-left: 15rem;
   font-size: 2rem;
 }
 
-#nav-icon{
-  padding: 2rem;
-  margin-right: 12rem;
-}
-
-.nav-item a, #navbar a{
+.nav-item a {
   text-decoration: none;
   color: #fff;
 }
-@media screen and (min-width: 768px) {
-#menu-icon{
-  display: none;
-}
-}
-#logo:hover, .nav-item a:hover {
+
+#logo:hover,
+.nav-item a:hover {
   background-color: #fff5e1;
   border: solid #f55800;
   padding: 5px;
   color: #1f1e1e;
 }
-#nav-icon:hover, .social-item img:hover {
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.nav-item {
+  padding: 1rem 1.2rem;
+  margin: 1.2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#nav-icon {
+  padding: 2rem;
+  margin-right: 12rem;
+}
+
+@media screen and (min-width: 768px) {
+  #menu-icon {
+    display: none;
+  }
+}
+
+#nav-icon:hover,
+.social-item img:hover {
   border: solid #f55800;
   padding: 5px;
 }
+
 /* Home section styling */
 #home {
   background-image: url(media/Illustration-header.png);
@@ -73,6 +79,7 @@ nav {
   display: flex;
   padding-bottom: 20rem;
 }
+
 /* Social media links styling */
 #social {
   display: flex;
@@ -80,37 +87,40 @@ nav {
   margin: 2rem 6rem 0 0;
   align-self: center;
 }
-.social-item{
-    margin: 2rem 1.5rem;
-  }
 
-  /* Bio Styling */
-#bio{
-margin-top: 15rem;
-width: 47%;
+.social-item {
+  margin: 2rem 1.5rem;
+}
+
+/* Bio Styling */
+#bio {
+  margin-top: 15rem;
+  width: 47%;
 }
 
 #bio p {
   font-size: 200%;
   line-height: 150%;
-
- 
 }
+
 .orange-color {
   color: #f55800;
   font-family: 'Crete Round', sans-serif;
   font-size: 600%;
   margin-bottom: 0%;
 }
+
 #bio h2 {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.2rem;
 }
-.no-style-deco{
+
+.no-style-deco {
   list-style: none;
 }
-.white{
+
+.white {
   color: #fff;
 }
 
@@ -121,11 +131,14 @@ width: 47%;
   #menu {
     display: none;
   }
-  #logo, #menu-icon{
+
+  #logo,
+  #menu-icon {
     margin: 1.2rem;
     padding: 1.2rem;
   }
-/* Home section mobile styling */
+
+  /* Home section mobile styling */
   #home {
     display: flex;
     flex-direction: column;
@@ -137,8 +150,7 @@ width: 47%;
     display: flex;
     flex-direction: row;
     margin: inherit 0;
-    padding-left: 0;     
-    
+    padding-left: 0;
   }
 
   #bio {
@@ -157,207 +169,148 @@ width: 47%;
     margin-top: 0;
     padding-top: 0;
     order: 2;
-    
-        
   }
-  
-/* Styling works section */
-main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  padding: 2%;
-}
 
-.title{
-  font-family: 'Crete Round', sans-serif;
-  font-weight: 400;
-  font-size: 3.2rem;
-  margin-top: 12rem 0 2.4rem 0;
- 
- 
-}
-#works{
-  margin-top: 12rem;
-  margin-bottom: 10rem;
-}
-
-hr{ 
-  size: 1px;
- 
-  color: #1c1a19;
-}
-
-main li{
-  
-  background: url("media/art.png");
-  background-repeat: no-repeat;
-  background-size:cover; 
-background-position: center center;
-padding-top: 7.2rem;
-margin-top: 1rem;
-
-
-
-
-}
-.grid-container{
-  display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
-  row-gap: 0.1rem;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-
-main img{
- width: 100%;
-
-
- 
+  /* Styling works section */
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
   }
-  main article{
-    
+
+  .title {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 3.2rem;
+    margin-top: 12rem 0 2.4rem 0;
+  }
+
+  #works {
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+  }
+
+  hr {
+    size: 1px;
+    color: #1c1a19;
+  }
+
+  main li {
+    background: url("media/art.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 7.2rem;
+    margin-top: 1rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    row-gap: 0.1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  main article {
     text-align: center;
   }
-  .text{
+
+  .text {
     font-size: 1.6rem;
-    font-weight: 400;  
-    margin: 2rem;
-  
-    
-  }
-  .grid-item h2{
+    font-weight: 400;
     margin: 2rem;
   }
 
+  .grid-item h2 {
+    margin: 2rem;
+  }
 
+  #work-1 {
+    color: #1c1a19;
+  }
 
+  button {
+    padding: 1rem 1.2rem;
+    font-weight: 500;
+    margin: 1.2rem;
+    border: none;
+    background-color: inherit;
+  }
 
+  .orange-button {
+    display: block;
+    background-color: #ff6b00;
+    padding: 1.2rem;
+    margin-left: 2.4rem;
+    font-weight: 700;
+    width: inherit;
+    color: #fff;
+  }
 
+  article button {
+    border: solid #8993a4;
+  }
 
-#work-1{
-  color: #1c1a19;
+  .btn {
+    display: flex;
+    justify-content: space-around;
+    color: #1c1a19;
+  }
+
+  li .orange-button {
+    width: 100%;
+    margin: 0;
+  }
+
+  li button {
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
+  }
+
+  /* STyling the About me section */
+  #about {
+    color: #fff;
+    background-color: #1c1a19;
+  }
+
+  #intro {
+    background-image: url("media/about-me.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    margin-top: 10rem;
+    padding-top: 12rem;
+    padding-bottom: 22rem;
+  }
+
+  #about hr {
+    color: #fff;
+    margin: 0;
+  }
+
+  #cv {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+  }
+
+  .list-item {
+    margin: 1.6rem 0;
+    padding: 2rem 15rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+  }
+
+  #cv img {
+    margin-right: 2rem;
+  }
 }
-
-
-
-button{
-  padding: 1rem 1.2rem;
-  font-weight: 500;
-  border: solid #8993A4;
-  margin: 1.2rem;
-  border: none;
-  background-color: inherit;
-  
-  
-}
-.orange-button{
-  display: block;
-  width: 100%;
-  background-color: #FF6B00;
-  padding: 1.2rem;
-  margin-left: 2.4rem;
-  font-weight: 700;
-  width: inherit;
-  color:#fff
-  
-  
-  
-}
-
-article button{
-  border: solid #8993A4;
-}
-.btn{
-  display: flex;
-  justify-content: space-around;
-  color: #1c1a19;
-}
-li .orange-button{
-  width: 100%;
-  margin: 0;
- 
-}
-li button{
-  background: rgba(255, 255, 255, 0.24);
-  color: #fff;
-}
-
-/* STyling the About me section */
-#about{
-  color: #fff;
-  background-color: #1C1A19;
-}
-#intro{
-background-image: url("media/about-me.png");
-background-repeat: no-repeat;
-background-position: right;
-background-position-y: bottom;
-
-margin-top: 10rem;
-padding-top: 12rem;
-padding-bottom: 22rem;
-
-
-}
-#about hr{
-  color: #fff;
-  margin: 0;
-}
-#cv{
- display: grid;
- grid-template-rows: auto auto auto;
- justify-content: center;
- text-align: center;
- list-style: none;
- 
-}
-
-.list-item{
-  margin: 1.6rem 0;
-  padding: 2rem 15rem;
-  font-size: 2.2rem;
-  font-weight: 400;
-}
-#cv img{
-  margin-right: 2rem;
-}
-
-
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
