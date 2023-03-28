@@ -1,188 +1,156 @@
-html {
-  font-size: 62.5%;
-}
 
-body {
-  margin: 0;
-  font-family: inter, sans-serif;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-/* Nav bar styling */
-nav {
-  display: flex;
-  background-color: #3e3c3c;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#logo {
-  font-weight: 700;
-  margin-left: 15rem;
-  font-size: 2rem;
-}
-
-/* button:enabled{
-  padding: 1.2rem;
-  color: #fff;
-  background-color: #F55800;
-} */
-
-button:active {
-  padding: 1.2rem;
-  color: #fff;
-  background-color: #e05304;
-}
-
-button:hover {
-  padding: 1.2rem;
-  border: solid #f55800;
-  color: #f55800;
-  background-color: #fff5e1;
-}
-
-button:disabled {
-  padding: 1.2rem;
-  color: #5b5957;
-  background-color: #f4f1f0;
-}
-
-li button:active {
-  padding: 1.2rem;
-  color: #fff;
-  background-color: #e05304;
-}
-
-li button:hover {
-  padding: 1.2rem;
-  border: solid #f55800;
-  color: #f55800;
-  background-color: #fff5e1;
-}
-
-li button:disabled {
-  padding: 1.2rem;
-  color: #5b5957;
-  background-color: #f4f1f0;
-}
-
-.nav-item a,
-header #logo {
-  text-decoration: none;
-  color: #fff;
-}
-
-#logo:hover,
-.nav-item a:hover {
-  background-color: #fff5e1;
-  border: solid #f55800;
-  padding: 5px;
-  color: #1f1e1e;
-}
-
-#menu {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-
-.nav-item {
-  padding: 1rem 1.2rem;
-  margin: 1.2rem;
-  font-weight: 600;
-  font-size: 1.5rem;
-}
-
-#nav-icon {
-  padding: 2rem;
-  margin-right: 12rem;
-}
-
-@media screen and (min-width: 768px) {
-  #menu-icon {
-    display: none;
-  }
-}
-
-#nav-icon:hover,
-.social-item img:hover {
-  border: solid #f55800;
-  padding: 5px;
-}
-
-/* Home section styling */
-#home {
-  background-image: url(media/Illustration-header.png);
-  background-color: #1c1a19;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 40%;
-  height: 25%;
-  max-width: 100%;
-  background-position: right;
-  display: flex;
-  padding-bottom: 20rem;
-}
-
-/* Social media links styling */
-#social {
-  display: flex;
-  flex-direction: column;
-  margin: 2rem 6rem 0 0;
-  align-self: center;
-}
-
-.social-item {
-  margin: 2rem 1.5rem;
-}
-
-/* Bio Styling */
-#bio {
-  margin-top: 15rem;
-  width: 47%;
-}
-
-#bio p {
-  font-size: 200%;
-  line-height: 150%;
-}
-
-.orange-color {
-  color: #f55800;
-  font-family: 'Crete Round', sans-serif;
-  font-size: 600%;
-  margin-bottom: 0%;
-}
-
-#bio h2 {
-  font-weight: 700;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-}
-
-.no-style-deco {
-  list-style: none;
-}
-
-.white {
-  color: #fff;
-}
 
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
-  /* Mobile Navbar styling */
-  #menu {
-    display: none;
+  html {
+    font-size: 62.5%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: auto;
+    font-family: inter, sans-serif;
+  }
+  
+  /* Nav bar styling */
+  #navbar {
+    display: flex;
+    background-color: #3e3c3c;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.5rem 0 2.4rem;
+ 
   }
 
-  #logo,
-  #menu-icon {
-    margin: 1.2rem;
+  
+  #logo {
+   width: 10%;
+  height: auto;
+  border-radius: 50%; 
+ 
+  }
+   
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .no-style-deco {
+    list-style: none;
+  }
+
+  
+ 
+  
+  
+  
+  /* button:enabled{
     padding: 1.2rem;
+    color: #fff;
+    background-color: #F55800;
+  } 
+  
+  button:active {
+    padding: 1.2rem;
+    color: #fff;
+    background-color: #e05304;
   }
+  
+  button:hover {
+    padding: 1.2rem;
+    border: solid #f55800;
+    color: #f55800;
+    background-color: #fff5e1;
+  }
+  
+  button:disabled {
+    padding: 1.2rem;
+    color: #5b5957;
+    background-color: #f4f1f0;
+  }
+  
+  li button:active {
+    padding: 1.2rem;
+    color: #fff;
+    background-color: #e05304;
+  }
+  
+  li button:hover {
+    padding: 1.2rem;
+    border: solid #f55800;
+    color: #f55800;
+    background-color: #fff5e1;
+  }
+  
+  li button:disabled {
+    padding: 1.2rem;
+    color: #5b5957;
+    background-color: #f4f1f0;
+  }
+ 
+  
+  /* Home section styling 
+  #home {
+    background-image: url(media/Illustration-header.png);
+    background-color: #1c1a19;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 25%;
+    max-width: 100%;
+    background-position: right;
+    display: flex;
+    padding-bottom: 20rem;
+  }
+  
+  /* Social media links styling 
+  #social {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 6rem 0 0;
+    align-self: center;
+  }
+  
+  .social-item {
+    margin: 2rem 1.5rem;
+  }
+  
+  /* Bio Styling 
+  #bio {
+    margin-top: 15rem;
+    width: 47%;
+  }
+  
+  #bio p {
+    font-size: 200%;
+    line-height: 150%;
+  }
+  
+  .orange-color {
+    color: #f55800;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 600%;
+    margin-bottom: 0%;
+  }
+  
+  #bio h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+  
+ 
+  
+  .white {
+    color: #fff;
+  }
+  /* Mobile Navbar styling 
 
-  /* Home section mobile styling */
+
+
+
+  /* Home section mobile styling 
   #home {
     display: flex;
     flex-direction: column;
@@ -215,7 +183,7 @@ header #logo {
     order: 2;
   }
 
-  /* Styling works section */
+  /* Styling works section 
   #projects {
     display: flex;
     flex-direction: column;
@@ -243,19 +211,13 @@ header #logo {
     margin: 5rem 0;
   }
 
-  .project {
-    background: url("media/art.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding-top: 7.2rem;
-    margin-top: 1rem;
-  }
+ 
+ 
 
-  .grid-container {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto auto;
-    row-gap: 0.1rem;
+  #work {
+    display: flex;
+    flex-direction: column;
+    
     align-items: center;
     justify-content: center;
   }
@@ -325,8 +287,12 @@ header #logo {
     background: rgba(255, 255, 255, 0.24);
     color: #fff;
   }
+  .content img{
+    max-width: 100%;
+    height: auto;
+  }
 
-  /* STyling the About me section */
+  /* STyling the About me section 
   #about {
     color: #fff;
     background-color: #1c1a19;
@@ -353,11 +319,9 @@ header #logo {
   }
 
   #cv {
-    display: flex;
-    flex-direction: column;
+   float: left;
     justify-content: center;
     text-align: center;
-    list-style: none;
   }
 
   .list-item {
@@ -373,5 +337,5 @@ header #logo {
 
   #about-me {
     margin: 2.4rem;
-  }
+  } */
 }
