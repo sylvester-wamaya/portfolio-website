@@ -22,23 +22,108 @@
     justify-content: space-between;
     padding: 0 3.5rem 0 2.4rem;
  
-  }
-
-  
+  }  
   #logo {
    width: 10%;
   height: auto;
-  border-radius: 50%; 
- 
-  }
-   
+  border-radius: 50%;
+  }   
   a {
     text-decoration: none;
     color: #fff;
-  }
+    }
   .no-style-deco {
     list-style: none;
   }
+  .white {
+    color: #fff;
+  }
+   /* Home section styling */
+  #home {
+    background-image: url(media/Illustration-header.png);
+    background-color: #1c1a19;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 25%;
+    background-position: right bottom;
+    display: flex;
+    flex-direction: column;
+    padding: 12rem 2.4rem;
+  }
+  .orange-color {
+    color: #f55800;
+    font-family: 'Crete Round', serif;
+    font-size: 5.6rem;
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  #home p {
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  
+  #home h2 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #FFF5E1;
+    margin: 1.2rem 0;
+  }
+
+  /* Social media links styling */
+  #social-items {
+    display: flex;
+    align-self: center;
+    margin-top: 1.2rem;
+    padding: 0;
+  }
+  
+  .social-item {
+    margin: 0 1.5rem;
+  }
+  
+  /* Bio Styling 
+ 
+ 
+  
+ 
+  /* Mobile Navbar styling 
+
+
+
+
+  /* Home section mobile styling 
+
+
+  #social-items {
+    display: flex;
+    flex-direction: row;
+    margin: inherit 0;
+    padding-left: 0;
+  }
+
+  #bio {
+    width: 75%;
+    margin-left: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .social-item {
+    margin: 0 1rem;
+    padding-left: 0;
+  }
+
+  #social {
+    margin-top: 0;
+    padding-top: 0;
+    order: 2;
+  }
+
 
   
  
@@ -90,99 +175,7 @@
   }
  
   
-  /* Home section styling 
-  #home {
-    background-image: url(media/Illustration-header.png);
-    background-color: #1c1a19;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 40%;
-    height: 25%;
-    max-width: 100%;
-    background-position: right;
-    display: flex;
-    padding-bottom: 20rem;
-  }
-  
-  /* Social media links styling 
-  #social {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 6rem 0 0;
-    align-self: center;
-  }
-  
-  .social-item {
-    margin: 2rem 1.5rem;
-  }
-  
-  /* Bio Styling 
-  #bio {
-    margin-top: 15rem;
-    width: 47%;
-  }
-  
-  #bio p {
-    font-size: 200%;
-    line-height: 150%;
-  }
-  
-  .orange-color {
-    color: #f55800;
-    font-family: 'Crete Round', sans-serif;
-    font-size: 600%;
-    margin-bottom: 0%;
-  }
-  
-  #bio h2 {
-    font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 3.2rem;
-  }
-  
  
-  
-  .white {
-    color: #fff;
-  }
-  /* Mobile Navbar styling 
-
-
-
-
-  /* Home section mobile styling 
-  #home {
-    display: flex;
-    flex-direction: column;
-    background-position-y: bottom;
-    background-size: 25%;
-  }
-
-  #social-items {
-    display: flex;
-    flex-direction: row;
-    margin: inherit 0;
-    padding-left: 0;
-  }
-
-  #bio {
-    width: 75%;
-    margin-left: 2rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .social-item {
-    margin: 0 1rem;
-    padding-left: 0;
-  }
-
-  #social {
-    margin-top: 0;
-    padding-top: 0;
-    order: 2;
-  }
-
   /* Styling works section 
   #projects {
     display: flex;
