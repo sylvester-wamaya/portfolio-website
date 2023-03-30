@@ -195,7 +195,7 @@ width: 100%;
     border: solid #8993A4;
     margin: 0 1.2rem 0 0;
   }
-  #art-btn{
+  .art-btn{
     background-color: #ff6b00;
     padding: 1.2rem;
     border: inherit;
@@ -203,7 +203,51 @@ width: 100%;
     font-weight: 700;
     color: #FFFFFF;
   }
-  
+  #about{
+    background: #1C1A19;
+    padding: 12rem 0;
+  }
+  #about-me{
+    font-size: 7.2rem;
+    padding:0;
+    margin: 0 2.4rem 2.4rem 2.4rem;
+  }
+  #abt-btn{
+    margin: 2.4rem;
+  }
+  #intro{
+    padding-bottom: 20.9rem;
+    background-image: url("media/about-me.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  #abt-line{
+    border:0.05rem solid #FFFFFF;
+   width: inherit;
+   margin: 2.4rem 2.4rem 8rem 2.4rem;
+  }
+  #intro-p{
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    width: inherit;
+  }
+  #cv{
+    margin: 0 2.4rem;
+    padding: 0;
+    text-align: center;
+  }
+  .list{
+    margin: 4.4rem 0;
+    padding: 0;
+  }
+  .list-item{
+    color:#FFFFFF;
+    margin: 3.2rem 0;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 4.3rem;
+  }
 
 
   
