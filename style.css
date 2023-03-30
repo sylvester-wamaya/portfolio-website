@@ -248,17 +248,7 @@ width: 100%;
     font-weight: 400;
     line-height: 4.3rem;
   }
-
-
-  
-  
-  /* button:enabled{
-    padding: 1.2rem;
-    color: #fff;
-    background-color: #F55800;
-  } 
-  
-  button:active {
+  .grey-button:active, .art-btn:active, .orange-button:active{
     padding: 1.2rem;
     color: #fff;
     background-color: #e05304;
@@ -275,108 +265,6 @@ width: 100%;
     padding: 1.2rem;
     color: #5b5957;
     background-color: #f4f1f0;
-  }
-  
-  li button:active {
-    padding: 1.2rem;
-    color: #fff;
-    background-color: #e05304;
-  }
-  
-  li button:hover {
-    padding: 1.2rem;
-    border: solid #f55800;
-    color: #f55800;
-    background-color: #fff5e1;
-  }
-  
-  li button:disabled {
-    padding: 1.2rem;
-    color: #5b5957;
-    background-color: #f4f1f0;
-  }
+  } 
  
-  
- 
-  
-
-
-  
-
-  
-
- 
-
-  .btn {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto;
-    align-items: end;
-    justify-content: space-around;
-    color: #1c1a19;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-
-  li .orange-button {
-    width: 100%;
-    margin: 0;
-  }
-
-  .project li button {
-    background: rgba(255, 255, 255, 0.24);
-    color: #fff;
-  }
-  .content img{
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* STyling the About me section 
-  #about {
-    color: #fff;
-    background-color: #1c1a19;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  #intro {
-    background-image: url("media/about-me.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: bottom;
-    margin-top: 10rem;
-    padding-top: 12rem;
-    padding-bottom: 22rem;
-  }
-
-  #about hr {
-    color: #fff;
-    margin: 0;
-  }
-
-  #cv {
-   float: left;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .list-item {
-    margin: 1.6rem 0;
-    padding: 2rem 15rem;
-    font-size: 2.2rem;
-    font-weight: 400;
-  }
-
-  #cv img {
-    margin-right: 2rem;
-  }
-
-  #about-me {
-    margin: 2.4rem;
-  } */
 }
