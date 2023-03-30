@@ -23,6 +23,9 @@
     padding: 0 3.5rem 0 2.4rem;
  
   }  
+  nav ul{
+    margin: 0;
+  }
   #logo {
    width: 10%;
   height: auto;
@@ -44,7 +47,7 @@
     background-color: #1c1a19;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 25%;
     height: 25%;
     background-position: right bottom;
     display: flex;
@@ -85,49 +88,124 @@
   .social-item {
     margin: 0 1.5rem;
   }
-  
-  /* Bio Styling 
- 
- 
-  
- 
-  /* Mobile Navbar styling 
 
-
-
-
-  /* Home section mobile styling 
-
-
-  #social-items {
+  /* Styling works section */
+  #projects {
     display: flex;
-    flex-direction: row;
-    margin: inherit 0;
-    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 2.4rem; 
   }
 
-  #bio {
-    width: 75%;
-    margin-left: 2rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  #work-title {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
   }
-
-  .social-item {
-    margin: 0 1rem;
-    padding-left: 0;
-  }
-
-  #social {
-    margin-top: 0;
-    padding-top: 0;
-    order: 2;
-  }
-
-
   
- 
+  .line{
+    border:0.05rem solid #212121;
+   width: 100%;
+   margin: 2.4rem 0 8rem 0;
+  }
+  #work-cover{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2.4rem;
+  }
+  .project-item{
+    margin-bottom: 2.4rem;
+    background-image: url("media/Img Placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7.2rem 1.6rem 0 1.6rem;
+    height: 100vw;
+    width: 100%;
+    position: relative;
+  }
+  #project-items{
+    padding: 0;
+    margin: 0;
+  }
+
+  .title{
+font-family: "crete Round", sans-serif;
+font-weight: 400;
+font-size: 3.2rem;
+color: #FFFFFF;
+margin-bottom: 0;
+padding-right: 4rem;
+line-height: 4.4rem;
+width: 100%;
+
+  }
+  .text{
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 1.2rem 0;
+    padding-right: 4rem;
+    line-height: 2.4rem;
+    width: 100%;
+  }
+
+
+  .orange-button {
+    background-color: #ff6b00;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1.2rem;   
+    font-weight: 700;
+    font-size: 1.7rem;
+    width: 100%;
+    color: #fff;
+    border: inherit;
+  }
+  .project-item ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .grey-button{
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 1.2rem 2.2rem;
+    background-color:rgba(255, 255, 255, 0.24);
+    color:#FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: inherit;
+  }
+
+  #article-h, .article-p, #article-btn button{
+    color: #1c1a19;
+  }
+  #article-btn{
+    display: flex;
+    align-items: center;
+    margin: 1.2rem 0;
+    padding: 0;
+
+  }
+  .grey-button{
+    padding: 1rem 1.2rem;
+    border: solid #8993A4;
+    margin: 0 1.2rem 0 0;
+  }
+  #art-btn{
+    background-color: #ff6b00;
+    padding: 1.2rem;
+    border: inherit;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
   
+
+
   
   
   /* button:enabled{
@@ -176,88 +254,14 @@
  
   
  
-  /* Styling works section 
-  #projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-  }
+  
 
-  .title {
-    font-family: 'Crete Round', sans-serif;
-    font-weight: 400;
-    font-size: 3.2rem;
-    padding: 2rem 0;
-    margin-top: 12rem 0 2.4rem 0;
-  }
 
-  #works {
-    margin-top: 12rem;
-    margin-bottom: 8rem;
-  }
+  
 
-  hr {
-    size: 1px;
-    color: #1c1a19;
-    margin: 5rem 0;
-  }
+  
 
  
- 
-
-  #work {
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    justify-content: center;
-  }
-
-  #projects img {
-    width: 100%;
-  }
-
-  #projects article {
-    text-align: center;
-  }
-
-  .text {
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin: 2rem;
-  }
-
-  .grid-item h2 {
-    margin: 2rem;
-  }
-
-  #work-1 {
-    color: #1c1a19;
-  }
-
-  button {
-    padding: 1rem 1.2rem;
-    font-weight: 500;
-    margin: 1.2rem;
-    border: none;
-    background-color: inherit;
-  }
-
-  .orange-button {
-    display: block;
-    background-color: #ff6b00;
-    padding: 1.2rem;
-    margin-left: 2.4rem;
-    font-weight: 700;
-    width: inherit;
-    color: #fff;
-  }
-
-  article button {
-    border: solid #8993a4;
-  }
 
   .btn {
     display: grid;
