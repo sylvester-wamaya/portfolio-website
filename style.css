@@ -97,8 +97,7 @@
 
   /* Styling works section */
   #projects {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-items: center;
     padding: 12rem 2.4rem;
