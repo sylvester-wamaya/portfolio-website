@@ -123,14 +123,15 @@
   }
 
   .project-item {
-    margin-bottom: 2.4rem;
+    margin-bottom: 6.4vw;
     background-image: url("media/Img Placeholder.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 7.2rem 1.6rem 0 1.6rem;
-    height: 100vw;
+    padding: 19vw 4.3vw 16vw 4.3vw;
+    height: 106vw;
     width: 100%;
     position: relative;
+    object-fit: cover;
   }
 
   #project-items {
@@ -141,21 +142,21 @@
   .title {
     font-family: "crete Round", sans-serif;
     font-weight: 400;
-    font-size: 3.2rem;
+    font-size: 8.5vw;
     color: #fff;
     margin-bottom: 0;
-    padding-right: 4rem;
-    line-height: 4.4rem;
+    padding-right: 10.6vw;
+    line-height: 11.7vw;
     width: 100%;
   }
 
   .text {
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 4.3vw;
     font-weight: 400;
-    margin: 1.2rem 0;
-    padding-right: 4rem;
-    line-height: 2.4rem;
+    margin: 3.2vw 0;
+    padding-right: 1vw;
+    line-height: 6.4vw;
     width: 100%;
   }
 
@@ -177,9 +178,9 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 1.2rem;
+    padding: 3.2vw;
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 4.53vw;
     width: 100%;
     color: #fff;
     border: inherit;
@@ -194,13 +195,13 @@
   }
 
   .grey-button {
-    padding: 1rem 1.2rem;
+    padding: 2.7vw 3.2vw;
     background-color: rgba(255, 255, 255, 0.24);
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 4vw;
     font-weight: 500;
     border: solid #8993a4;
-    margin: 0 1.2rem 0 0;
+    margin: 0 3.2vw 0 0;
   }
 
   #article-h,
@@ -218,9 +219,9 @@
 
   .art-btn {
     background-color: #ff6b00;
-    padding: 1.2rem;
+    padding: 3.2vw;
     border: inherit;
-    font-size: 1.7rem;
+    font-size: 4.53vw;
     font-weight: 700;
     color: #fff;
   }
