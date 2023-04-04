@@ -290,12 +290,13 @@
   .project-item .grey-button {
     border: inherit;
   }
-  #contact-me{
+
+  #contact-me {
     margin: 18.4vw 6.7vw 21vw 6vw;
     padding: 0;
   }
 
-  .input{
+  .input {
     width: 100%;
     margin-bottom: 6.5vw;
     padding: 3.7vw 4.3vw;
@@ -303,51 +304,52 @@
     font-size: 4vw;
     border-top: none;
     border-left: none;
-    border-right:none;
-    border-bottom: 0.4vw solid #DFE1E6;
-
+    border-right: none;
+    border-bottom: 0.4vw solid #dfe1e6;
   }
-  #contact-me p{
+
+  #contact-me p {
     margin-bottom: 25vw;
     font-weight: 700;
     font-size: 8.7vw;
-    color:#172B4D;
+    color: #172b4d;
     text-align: center;
   }
-  #messege{
+
+  #messege {
     width: 100%;
     padding: 3.2vw;
     border: none;
     font-style: italic;
     font-weight: 400;
     font-size: 4vw;
-    color: #3C3A39;
-    background-color: #FBF8F7;
+    color: #3c3a39;
+    background-color: #fbf8f7;
     margin-bottom: 6.4vw;
   }
-  #submit{
-text-align: center;
 
+  #submit {
+    text-align: center;
   }
-  #footer-links{
+
+  #footer-links {
     display: flex;
     justify-content: center;
-
     align-items: center;
     margin: 0;
     padding: 0;
   }
-  #contact-line{
-    border: 0.05rem solid #DFE1E6;
+
+  #contact-line {
+    border: 0.05rem solid #dfe1e6;
     width: 100%;
-    margin-bottom:6.7vw;
+    margin-bottom: 6.7vw;
   }
-  #footer-line{
-    border: 5px solid #0D151E;
+
+  #footer-line {
+    border: 5px solid #0d151e;
     width: 35.8vw;
-    margin:12.5vw auto 3vw auto;
+    margin: 12.5vw auto 3vw auto;
     border-radius: 2.7vw;
-
   }
-
 }
