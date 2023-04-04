@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
-</head>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;500&family=Poppins:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+   </head>
 <body>
      <!-- navigation bar -->
     <header>
@@ -180,20 +180,21 @@
         <form id="contact-form" action="https://formspree.io/f/xbjezbpa" method="post">
             <input class="input txt" type="text" id="fullname" name="fname" maxlength="30" placeholder="Full name" required>
             <input class="input txt" name="email" id="email" type="email" placeholder="Email address" required>
-            <textarea name="messege" id="messege" cols="30" rows="5" maxlength="500" required>write me something</textarea>
+            <textarea name="messege" id="messege" cols="30" rows="5" maxlength="500" required placeholder="Write me something..."></textarea>
            <div id="submit"> <button class="art-btn" type="submit">Get in touch</button></div>   
         </form>
     </section>
+    <div id="contact-line"></div>
     <footer>
-        <div></div>
-        <ul class="no-style-deco">
-            <li><a href="#"><img class="social-item" src="media/github.png" alt="github"></a></li>
-            <li><a href="#"><img class="social-item" src="media/Linkedin icon.png" alt="linkedIn"></a></li>
-            <li><a href="#"><img class="social-item" src="media/angel list.png" alt="angel list"></a></li>
-            <li><a href="#"><img class="social-item" src="media/twitter.png" alt="twitter"></a></li>
-            <li><a href="#"><img class="social-item" src="media/medium.png" alt="medium"></a></li>          
+        
+        <ul class="no-style-deco" id="footer-links">
+            <li><a href="#"><img class="social-item" src="media/git f.png" alt="github"></a></li>
+            <li><a href="#"><img class="social-item" src="media/linkedin f.png" alt="linkedIn"></a></li>
+            <li><a href="#"><img class="social-item" src="media/chil f.png" alt="angel list"></a></li>
+            <li><a href="#"><img class="social-item" src="media/twitter f.png" alt="twitter"></a></li>
+            <li><a href="#"><img class="social-item" src="media/email f.png" alt="medium"></a></li>          
         </ul>
-        <div>-----------</div>
+        <div id="footer-line"></div>
     </footer>
 </body>
 </html>
