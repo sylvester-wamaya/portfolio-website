@@ -11,7 +11,7 @@
 
   body {
     margin: auto;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
   }
 
   /* Nav bar styling */
@@ -290,4 +290,45 @@
   .project-item .grey-button {
     border: inherit;
   }
+  #contact-me{
+    margin: 18.4vw 6.7vw 21vw 6vw;
+  }
+  #contact-form{
+    float: left;
+  }
+  .input{
+    width: 100%;
+    margin-bottom: 6.5vw;
+    padding: 3.7vw 4.3vw;
+    font-weight: 400;
+    font-size: 4vw;
+    border-top: #DBD8D7;
+    border-left: #DBD8D7;
+    border-right: #DBD8D7;
+    border-right: #DBD8D7;
+
+  }
+  #contact-me p{
+    margin-bottom: 25vw;
+    font-weight: 700;
+    font-size: 9vw;
+    color:#172B4D;
+    text-align: center;
+  }
+  #messege{
+    width: 100%;
+    padding: 3.2vw;
+    border: none;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #3C3A39;
+    background-color: #FBF8F7;
+    margin-bottom: 6.4vw;
+  }
+  #submit{
+text-align: center;
+
+  }
+
 }
