@@ -51,3 +51,45 @@
   .white {
     color: #fff;
   }
+  #home {
+    background-image: url(media/desktop-header.png);
+    background-color: #1c1a19;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size:45%;
+    background-position: right top;
+    display: flex;
+    padding: 13.3vw 47vw 17.4vw 2.5rem;
+    align-items: center;
+  }
+  
+  .orange-color {
+    color: #f55800;
+    font-family: 'Crete Round', serif;
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  
+  #home p {
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 2.2vw;
+  }
+  
+  #home h2 {
+    font-weight: 500;
+    font-size: 2.2vwrem;
+    color: #FFFFFF;
+    margin: 1.7vw 0;
+  }
+  
+  /* Social media links styling */
+  #social-items {
+    margin-right: 6vw;
+
+  }
+  
+  .social-item {
+    margin-top: 1.4vw;
+  }
+  
