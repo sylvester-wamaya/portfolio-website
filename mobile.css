@@ -1,6 +1,6 @@
 
 /* Mobile responsiveness */
-@media screen and (max-width: 768px) {
+
   html {
     font-size: 62.5%;
   }
@@ -352,4 +352,4 @@
     margin: 12.5vw auto 3vw auto;
     border-radius: 2.7vw;
   }
-}
+
