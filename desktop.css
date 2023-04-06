@@ -114,7 +114,7 @@
     font-weight: 400;
   }
   article{
-    width: 31vw;
+    width: 28vw;
     float: right;
     margin-bottom: 9.5vw;
     
@@ -137,7 +137,7 @@
   }
   
   #work-cover {
-    width: 46vw;
+    width: 49vw;
     height: auto;
     margin-bottom: 0.7vw;
     float: left;
@@ -167,9 +167,9 @@
   }
   .project-item .text{
     color: #FFFFFF;
-    font-size: 1.2vw;
+    font-size: 1.15vw;
     line-height: 1.7vw;
-    margin: 1.7vw 0;
+    margin: 1.6vw 0;
   }
   
   .grey-button{
@@ -241,7 +241,7 @@
 #intro-p {
 margin: 1.7vw 0;
 color: #FFFFFF;
-width: 40vw;
+width: 38.7vw;
 }
 #abt-line {
   border: 0.07vw solid #fff;
@@ -334,6 +334,25 @@ display: none;
 }
 #footer-links .social-item{
   margin: 0 1.4vw 1.4vw 0;
+}
+.grey-button:active,
+.art-btn:active,
+.orange-button:active {
+  padding: 0.83vw;
+  color: #fff;
+  background-color: #e05304;
+}
+button:hover {
+  padding: 0.83vw;
+  border: solid #f55800;
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+button:disabled {
+  padding: 0.83vw;
+  color: #5b5957;
+  background-color: #f4f1f0;
 }
 
 
