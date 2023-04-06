@@ -155,6 +155,11 @@ article p {
   display: flex;
   flex-direction: column;
   justify-content: end;
+  padding: 1.1vw;
+
+}
+.project-item .orange-button{
+  display: none;
 }
 
 .title {
@@ -188,22 +193,33 @@ article p {
   font-weight: 700;
   font-size: 1.2vw;
   color: #fff;
-  border: inherit;
+  border: 0;
 }
 
-.no-orange-button .orange-button {
+
+
+
+
+.project-item:hover{
+  background-image: url("media/Img 1.png");
+  padding: 0;
+  border: 0.14vw solid #262626;
+}
+.project-item:hover .orange-button{
+display: block;
+}
+.project-item:hover .btn, .project-item:hover p, .project-item:hover h2{
   display: none;
 }
 
-.no-orange-button {
-  padding: 1.1vw;
-}
 
-#empty-banner h2,
-#empty-banner p,
-#empty-banner ul {
-  display: none;
-}
+
+
+
+
+
+
+
 
 article .grey-button {
   color: #091e42;
@@ -222,19 +238,6 @@ article .grey-button {
   margin-top: 1.7vw;
 }
 
-#empty-banner {
-  background-image: url("media/Img 1.png");
-}
-
-#work-2,
-#work-5 {
-  background-image: url("media/Img 2 5.png");
-}
-
-#work-3,
-#work-6 {
-  background-image: url("media/Img 3 6.png");
-}
 
 #about {
   background: #1c1a19;
