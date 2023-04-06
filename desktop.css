@@ -221,5 +221,51 @@
     background-image: url("media/Img 3 6.png");
   }
 
+  #about {
+  background: #1c1a19;
+}
+
+
+#intro {
+  padding: 9vw 10vw 10vw 10vw;
+  background-image: url("media/desktop-about-me back.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 40vw;
+}
+#intro-p {
+margin: 1.7vw 0;
+color: #FFFFFF;
+width: 40vw;
+}
+#abt-line {
+  border: 0.07vw solid #fff;
+  width: inherit;
+  margin: 10vw;
+}
+
+#cv {
+display: flex;
+justify-content: space-between;
+padding:0 10vw 10vw 10vw;
+
+}
+
+
+.list-item {
+  color: #fff;
+  margin-top: 2.2vw;
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 3vw;
+}
+.skill img{
+  width: 1.25vw;
+  height: auto;
+}
+
+
+
+
  
  
