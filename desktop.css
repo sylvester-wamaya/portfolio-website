@@ -99,13 +99,14 @@
 
   #project-intro{
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: center;
   }
   
   #work-title {
-    width: 22vw;   
+    width: 22vw; 
+    margin-bottom: 8vw;
   }
   .project-title{
     font-family: 'Crete Round', sans-serif;
@@ -114,8 +115,9 @@
   }
   article{
     width: 31vw;
-    margin-top: 2vw;
-
+    float: right;
+    margin-bottom: 9.5vw;
+    
   }
   article p{
     font-weight: 400;
@@ -125,8 +127,11 @@
   }
   
   .line {
-    border: 0.035vw solid #212121;
+    background-color: #212121;
+    height: 0.035vw;
+    border: 0;
     width: 54vw;
+    margin:2vw 0 9.25vw 0;
 
 
   }
@@ -134,7 +139,7 @@
   #work-cover {
     width: 46vw;
     height: auto;
-    margin:8vw 0 1.7vw 0;
+    margin-bottom: 0.7vw;
     float: left;
     
   }
@@ -310,28 +315,26 @@ form{
   width: 100%;
   
 }
+#contact-line {
+  border: 0.07vw solid #dfe1e6;
+  width: 100%;
+  margin-bottom: 1.74vw;
+}
 
 #footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
 }
 
-#contact-line {
-  border: 0.05rem solid #dfe1e6;
-  width: 100%;
-  margin-bottom: 6.7vw;
-}
+
 
 #footer-line {
-  border: 5px solid #0d151e;
-  width: 35.8vw;
-  margin: 12.5vw auto 3vw auto;
-  border-radius: 2.7vw;
+display: none;
 }
-
+#footer-links .social-item{
+  margin: 0 1.4vw 1.4vw 0;
+}
 
 
 
