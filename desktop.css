@@ -263,6 +263,75 @@ padding:0 10vw 10vw 10vw;
   width: 1.25vw;
   height: auto;
 }
+#contact-me {
+  margin: 9vw 9.9vw 11.5vw 9vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  margin-bottom: 1.7vw;
+  padding: 1vw 1.1vw;
+  font-weight: 400;
+  font-size: 1vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.07vw solid #dfe1e6;
+}
+
+#contact-me p {
+  font-weight: 700;
+  font-size: 2.8vw;
+  color: #172b4d;
+ width: 31.6vw;
+ margin-right:1.7vw;
+ padding-right: 1.7vw;
+}
+form{
+  width: 47.5vw;
+}
+#email{
+  width: 100%;
+}
+
+#lname, #fname{
+  width: 49%;
+}
+
+#messege {
+  padding: 0.83vw;
+  border: none;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1vw;
+  color: #3c3a39;
+  background-color: #fbf8f7;
+  width: 100%;
+  
+}
+
+#footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#contact-line {
+  border: 0.05rem solid #dfe1e6;
+  width: 100%;
+  margin-bottom: 6.7vw;
+}
+
+#footer-line {
+  border: 5px solid #0d151e;
+  width: 35.8vw;
+  margin: 12.5vw auto 3vw auto;
+  border-radius: 2.7vw;
+}
+
 
 
 

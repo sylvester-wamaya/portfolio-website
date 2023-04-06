@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wamaya portfolio</title>
+    <link rel="icon" type="image/x-icon" href="media/logo-dark.ico">
     <link rel="stylesheet" href="mobile.css" type="text/css" media="screen and (max-device-width:768px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -189,9 +190,10 @@
 
     </section>
     <section id="contact-me">
-        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+        <p>I'm always interested in hearing about new projects, so if you'd like to chat please <br> get in touch.</p>
         <form id="contact-form" action="https://formspree.io/f/xbjezbpa" method="post">
-            <input class="input txt" type="text" id="fullname" name="fname" maxlength="30" placeholder="Full name" required>
+            <input class="input txt" type="text" id="fname" name="fname" maxlength="30" placeholder="First name" required>
+            <input class="input txt" type="text" id="lname" name="lname" maxlength="30" placeholder="Last name" required>
             <input class="input txt" name="email" id="email" type="email" placeholder="Email address" required>
             <textarea name="messege" id="messege" cols="30" rows="5" maxlength="500" required placeholder="Write me something..."></textarea>
            <div id="submit"> <button class="art-btn" type="submit">Get in touch</button></div>   
