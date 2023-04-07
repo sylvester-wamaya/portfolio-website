@@ -1,9 +1,7 @@
 
 /* Mobile responsiveness */
 
-html {
-  font-size: 62.5%;
-}
+
 
 * {
   box-sizing: border-box;
@@ -26,11 +24,17 @@ body {
 nav ul {
   margin: 0;
 }
+#desk-nav{
+  display: none;
+}
 
 #logo {
   width: 10%;
   height: auto;
   border-radius: 50%;
+}
+aside{
+  order: 2;
 }
 
 a {
@@ -48,7 +52,7 @@ a {
 
 /* Home section styling */
 #home {
-  background-image: url(media/Illustration-header.png);
+  background-image: url("media/illustration-header-mobile.png");
   background-color: #1c1a19;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -57,13 +61,13 @@ a {
   background-position: right bottom;
   display: flex;
   flex-direction: column;
-  padding: 12rem 2.4rem;
+  padding: 32vw 6.4vw;
 }
 
 .orange-color {
   color: #f55800;
   font-family: 'Crete Round', serif;
-  font-size: 5.6rem;
+  font-size: 14vw;
   margin: 0;
   font-weight: 400;
 }
@@ -71,28 +75,29 @@ a {
 #home p {
   font-weight: 400;
   font-family: 'poppins', sans-serif;
-  font-size: 1.6rem;
+  font-size: 4.3vw;
   margin: 0;
 }
 
 #home h2 {
   font-family: 'roboto', sans-serif;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 6.4vw;
   color: #fff5e1;
-  margin: 1.2rem 0;
+  margin: 3.2vw 0;
 }
 
 /* Social media links styling */
 #social-items {
   display: flex;
   align-self: center;
-  margin-top: 1.2rem;
+  margin-top: 3.2vw;
   padding: 0;
+  
 }
 
 .social-item {
-  margin: 0 1.5rem;
+  margin: 0 4vw;
 }
 
 /* Styling works section */
@@ -100,25 +105,25 @@ a {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 12rem 2.4rem;
+  padding: 32vw 6.4vw;
 }
 
 #work-title {
   font-family: 'Crete Round', sans-serif;
-  font-size: 4rem;
+  font-size: 10.7vw;
   font-weight: 400;
 }
 
 .line {
-  border: 0.05rem solid #212121;
+  border: 0.3vw solid #212121;
   width: 100%;
-  margin: 2.4rem 0 8rem 0;
+  margin: 6.4vw 0 21.3vw 0;
 }
 
 #work-cover {
   width: 100%;
   height: auto;
-  margin-bottom: 2.4rem;
+  margin-bottom: 6.4vw;
 }
 
 .project-item {
@@ -160,14 +165,14 @@ a {
 }
 
 button:hover {
-  padding: 1.2rem;
+  padding: 3.2vw;
   border: solid #f55800;
   color: #f55800;
   background-color: #fff5e1;
 }
 
 button:disabled {
-  padding: 1.2rem;
+  padding: 3.2vw;
   color: #5b5957;
   background-color: #f4f1f0;
 }
@@ -212,7 +217,7 @@ button:disabled {
 #article-btn {
   display: flex;
   align-items: center;
-  margin: 1.2rem 0;
+  margin: 3.2vw 0;
   padding: 0;
 }
 
@@ -228,21 +233,21 @@ button:disabled {
 /* Styling About Me section */
 #about {
   background: #1c1a19;
-  padding: 12rem 0;
+  padding: 32vw 0;
 }
 
 #about-me {
-  font-size: 7.2rem;
+  font-size: 19.2vw;
   padding: 0;
-  margin: 0 2.4rem 2.4rem 2.4rem;
+  margin: 0 6.4vw 6.4vw 6.4vw;
 }
 
 #abt-btn {
-  margin: 2.4rem;
+  margin: 6.4vw;
 }
 
 #intro {
-  padding-bottom: 20.9rem;
+  padding-bottom: 55.7vw;
   background-image: url("media/about-me.png");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -251,38 +256,38 @@ button:disabled {
 #abt-line {
   border: 0.05rem solid #fff;
   width: inherit;
-  margin: 2.4rem 2.4rem 8rem 2.4rem;
+  margin: 0.3vw 6.4vw 21.3vw 6.4vw;
 }
 
 #intro-p {
-  margin-left: 2.4rem;
-  margin-right: 2.4rem;
+  margin-left: 6.4vw;
+  margin-right: 6.4vw;
   width: inherit;
 }
 
 #cv {
-  margin: 0 2.4rem;
+  margin: 0 6.4vw;
   padding: 0;
   text-align: center;
 }
 
 .list {
-  margin: 4.4rem 0;
+  margin: 11.7vw 0;
   padding: 0;
 }
 
 .list-item {
   color: #fff;
-  margin: 3.2rem 0;
-  font-size: 2.2rem;
+  margin: 8.5vw 0;
+  font-size: 5.9vw;
   font-weight: 400;
-  line-height: 4.3rem;
+  line-height: 11.5vw;
 }
 
 .grey-button:active,
 .art-btn:active,
 .orange-button:active {
-  padding: 1.2rem;
+  padding: 3.2vw;
   color: #fff;
   background-color: #e05304;
 }
