@@ -101,6 +101,17 @@ a {
     font-size: 14vw;
   }
 
+  .project-item p,
+  .project-item h2,
+  .project-item .btn {
+    margin-right: 3.5vw;
+    margin-left: 3.5vw;
+  }
+
+  .project-item p {
+    width: 80vw;
+  }
+
   #home p {
     font-weight: 400;
     font-family: 'poppins', sans-serif;
@@ -428,17 +439,6 @@ a {
   article p {
     font-weight: 400;
     margin: 1.7vw 0;
-  }
-
-  .project-item p,
-  .project-item h2,
-  .project-item .btn {
-    margin-right: 3.5vw;
-    margin-left: 3.5vw;
-  }
-
-  .project-item p {
-    width: 80vw;
   }
 
   .project-item:hover .btn,
