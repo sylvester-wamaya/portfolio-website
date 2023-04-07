@@ -12,6 +12,38 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+#logo {
+  animation: logo 6s ease-in-out infinite alternate;
+  position: relative;
+}
+
+@keyframes logo {
+  0% {
+    transform: rotate(0deg);
+    left: 0;
+  }
+
+  25% {
+    transform: rotate(90deg);
+    left: 10vw;
+  }
+
+  50% {
+    transform: rotate(180deg);
+    left: 20vw;
+  }
+
+  75% {
+    transform: rotate(270deg);
+    left: 10vw;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    left: 0;
+  }
+}
+
 #navbar {
   display: flex;
   background-color: #3e3c3c;
