@@ -1,8 +1,6 @@
 
 /* Mobile responsiveness */
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -24,7 +22,8 @@ body {
 nav ul {
   margin: 0;
 }
-#desk-nav{
+
+#desk-nav {
   display: none;
 }
 
@@ -33,7 +32,8 @@ nav ul {
   height: auto;
   border-radius: 50%;
 }
-aside{
+
+aside {
   order: 2;
 }
 
@@ -93,7 +93,6 @@ a {
   align-self: center;
   margin-top: 3.2vw;
   padding: 0;
-  
 }
 
 .social-item {

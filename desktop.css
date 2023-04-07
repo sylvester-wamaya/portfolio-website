@@ -78,6 +78,25 @@ a {
   line-height: 2.2vw;
 }
 
+.orange-button {
+  background-color: #ff6b00;
+  padding: 1.2vw 0;
+  font-weight: 700;
+  font-size: 1.2vw;
+  color: #fff;
+  border: 0;
+}
+
+.orange-button:active {
+  padding: 0.83vw;
+  color: #fff;
+  background-color: #e05304;
+}
+
+.project-item:hover h2 {
+  display: none;
+}
+
 #home h2 {
   font-weight: 500;
   font-size: 2.2vw;
@@ -156,9 +175,9 @@ article p {
   flex-direction: column;
   justify-content: end;
   padding: 1.1vw;
-
 }
-.project-item .orange-button{
+
+.project-item .orange-button {
   display: none;
 }
 
@@ -187,40 +206,18 @@ article p {
   margin-right: 0.83vw;
 }
 
-.orange-button {
-  background-color: #ff6b00;
-  padding: 1.2vw 0;
-  font-weight: 700;
-  font-size: 1.2vw;
-  color: #fff;
-  border: 0;
-}
-
-
-
-
-
-.project-item:hover{
+.project-item:hover {
   background-image: url("media/Img 1.png");
   padding: 0;
   border: 0.14vw solid #262626;
 }
-.project-item:hover .orange-button{
-display: block;
-}
-.project-item:hover .btn, .project-item:hover p, .project-item:hover h2{
-  display: none;
+
+.project-item:hover .orange-button {
+  display: block;
 }
 
-
-
-
-
-
-
-
-
-
+.project-item:hover .btn,
+.project-item:hover p,
 article .grey-button {
   color: #091e42;
   border: 0.07vw solid #8993a4;
@@ -237,7 +234,6 @@ article .grey-button {
   color: #fff;
   margin-top: 1.7vw;
 }
-
 
 #about {
   background: #1c1a19;
@@ -354,12 +350,6 @@ form {
 
 .grey-button:active,
 .art-btn:active,
-.orange-button:active {
-  padding: 0.83vw;
-  color: #fff;
-  background-color: #e05304;
-}
-
 button:hover {
   padding: 0.83vw;
   border: solid #f55800;
