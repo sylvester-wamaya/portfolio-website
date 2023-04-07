@@ -163,8 +163,6 @@ a {
     justify-content: end;
   }
 
-
-
   .title {
     font-size: 8.5vw;
     margin-bottom: 0;
@@ -432,12 +430,6 @@ a {
     margin: 1.7vw 0;
   }
 
-  .project-item:hover .btn,
-  .project-item:hover p,
-  .project-item:hover h2 {
-    display: none;
-  }
-
   .project-item p,
   .project-item h2,
   .project-item .btn {
@@ -447,6 +439,12 @@ a {
 
   .project-item p {
     width: 80vw;
+  }
+
+  .project-item:hover .btn,
+  .project-item:hover p,
+  .project-item:hover h2 {
+    display: none;
   }
 
   #home h2 {
@@ -493,8 +491,6 @@ a {
     float: right;
     margin-bottom: 9.5vw;
   }
-
-
 
   .line {
     background-color: #212121;
@@ -565,6 +561,13 @@ a {
     border: 0.14vw solid #262626;
   }
 
+  .art-btn {
+    padding: 0.83vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-top: 1.7vw;
+  }
+
   .grey-button:active,
   .art-btn:active,
   .orange-button:active {
@@ -575,13 +578,6 @@ a {
 
   .project-item:hover .orange-button {
     display: block;
-  }
-
-  .art-btn {
-    padding: 0.83vw;
-    font-size: 1.2vw;
-    font-weight: 700;
-    margin-top: 1.7vw;
   }
 
   #intro {
