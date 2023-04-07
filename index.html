@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wamaya portfolio</title>
-    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen and (max-device-width:768px)">
+    <link rel="icon" type="image/x-icon" href="media/logo-dark.ico">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;500&family=Poppins:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400&family=Poppins:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
    </head>
 <body>
      <!-- navigation bar -->
@@ -17,6 +18,12 @@
             <ul class="no-style-deco" id="navbar">
                 <li><a href="#"><img id="logo" src="media/logo dark.PNG" alt="logo"></a></li>
                 <li><a href="#"><img id="menu-icon" src="media/Union.png" alt="menu"></a></li>
+                <ul class="no-style-deco" id="desk-nav">
+                <li class="desk-nav"><a href="#">Portfolio</a></li>
+                <li class="desk-nav"><a href="#">About</a></li>
+                <li class="desk-nav"><a href="#">Contact</a></li>
+                <li class="desk-nav"><a href="#"><img src="media/Icon - Mail.png" alt="Email icon"></a></li>
+                </ul>
             </ul>
         </nav>
     </header>
@@ -24,13 +31,6 @@
     <!-- Home section -->
     
     <section id="home">
-        <h1 class="orange-color">Hey There. <br> I'm Wamaya.</h1>
-        <h2>I'm a Software Developer</h2>
-        <p class="white">I can help you build a product , feature or website. Look through some of 
-            my work and experience! If you like what you see and have a project you need coded,
-            don't hesitate to contact me.</p>
-       
-     <!-- Social media icons -->
         <aside>
             <ul id="social-items" class="no-style-deco">
                 <li><a href="#"><img class="social-item" src="media/github.png" alt="github"></a></li>
@@ -40,18 +40,28 @@
                 <li><a href="#"><img class="social-item" src="media/medium.png" alt="medium"></a></li>          
             </ul>
         </aside>
+        <div>
+        <h1 class="orange-color">Hey There. <br> I'm Wamaya.</h1>
+        <h2>I'm a Software Developer</h2>
+        <p class="white text">I can help you build a product , feature or website. Look through some of 
+            my work and experience! If you like what you see and have a project you need coded,<br>
+            don't hesitate to contact me.</p>
+        </div>
+       
+     <!-- Social media icons -->
+
     </section>
 
     <!-- Works section -->
     <section id="projects">
-        
-        <h2 id="work-title">My Recent Works</h2>      
+        <div id="project-intro">
+        <h2 id="work-title" class="project-title">My Recent Works</h2>      
         <div class="line"></div>         
         <img id="work-cover" src="media/multipost.png" alt="Multipost image">
 
-    <ul id="project-items" class="no-style-deco">  
-            <li >
-                <h2 id="article-h" class="title">Multi-Post Stories</h2>
+     
+          <article>
+                <h2 id="article-h" class="project-title">Multi-Post Stories</h2>
                 <p  class="article-p" class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
                 <ul class="btn no-style-deco" id="article-btn">
                     <li> <button type="button" class="grey-button">CSS</button></li>
@@ -59,10 +69,13 @@
                     <li><button type="button" class="grey-button">Bootstrap</button></li>
                     <li> <button type="button" class="grey-button">Ruby</button></li>
                 </ul>
+             
                 <button type="button" class="art-btn">See project</button>
-            </li>
+            </article>
+        </div>
+            
 
-         
+            <ul id="project-items" class="no-style-deco"> 
             <li class="project-item"> 
                 <h2 class="title">Profesional Art Printing Data</h2>
                 <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
@@ -74,8 +87,8 @@
             <button type="button" class="orange-button">See project</button>                      
             </li>
 
-            <li class="project-item"> 
-                <h2 class="title">Profesional Art Printing Data</h2>
+            <li class="project-item" id="work-2"> 
+                <h2 class="title">Data Dashboard Healthcare</h2>
                 <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
                 <ul class="btn no-style-deco">
                     <li> <button type="button" class="grey-button">HTML</button></li>
@@ -85,8 +98,8 @@
                 <button type="button" class="orange-button">See project</button>            
             </li>
 
-            <li class="project-item"> 
-                <h2 class="title">Profesional Art Printing Data</h2>
+            <li class="project-item" id="work-3"> 
+                <h2 class="title">Website Portfolio </h2>
                 <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
                 <ul class="btn no-style-deco">
                     <li> <button type="button" class="grey-button">HTML</button></li>
@@ -97,8 +110,8 @@
                 
             </li>
 
-            <li class="project-item">
-                <h2 class="title">Profesional Art Printing Data</h2>
+            <li class="project-item" id="work-4">
+                <h2 class="title">Profesional Art Printing Data More</h2>
                 <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
                 <ul class="btn no-style-deco">
                         <li> <button type="button" class="grey-button">HTML</button></li>
@@ -108,8 +121,8 @@
                 <button type="button" class="orange-button">See project</button>                    
             </li>
 
-            <li class="project-item"> 
-                <h2 class="title">Profesional Art Printing Data</h2>
+            <li class="project-item" id="work-5"> 
+                <h2 class="title">Data Dashboard Healthcare</h2>
                 <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
                 <ul class="btn no-style-deco">
                     <li> <button type="button" class="grey-button">HTML</button></li>
@@ -119,8 +132,8 @@
                 <button type="button" class="orange-button">See project</button>                                            
             </li>
 
-            <li class="project-item"> 
-                <h2 class="title">Profesional Art Printing Data</h2>
+            <li class="project-item" id="work-6"> 
+                <h2 class="title">Website Portfolio </h2>
                 <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
                 <ul class="btn no-style-deco">
                     <li> <button type="button" class="grey-button">HTML</button></li>
@@ -143,7 +156,7 @@
         <div id="abt-line"></div>
         
         <ul id="cv" class="no-style-deco">
-            <li>
+            <li class="skill">
                 <h3 class="title"><img src="media/Rectangle 55.png" alt="icon"> Language</h3>
                 <ul class="no-style-deco list">
                     <li class="list-item">JavaScript</li>
@@ -152,7 +165,7 @@
                     <li class="list-item">CSS</li>
                 </ul>
             </li>
-            <li>
+            <li class="skill">
                 <h3 class="title"><img src="media/Rectangle 56.png" alt="icon">   Frameworks</h3>
                 <ul class="no-style-deco list">
                     <li class="list-item">React.js</li>
@@ -162,7 +175,7 @@
                     <li class="list-item">Selenium</li>                           
                 </ul>
             </li>
-            <li>
+            <li class="skill">
                 <h3 class="title"><img src="media/Rectangle 57.png" alt="icon">   Skills</h3>
                 <ul class="no-style-deco list">
                     <li class="list-item">Database Management</li>
@@ -176,9 +189,10 @@
 
     </section>
     <section id="contact-me">
-        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+        <p>I'm always interested in hearing about new projects, so if you'd like to chat please <br> get in touch.</p>
         <form id="contact-form" action="https://formspree.io/f/xbjezbpa" method="post">
-            <input class="input txt" type="text" id="fullname" name="fname" maxlength="30" placeholder="Full name" required>
+            <input class="input txt" type="text" id="fname" name="fname" maxlength="30" placeholder="First name" required>
+            <input class="input txt" type="text" id="lname" name="lname" maxlength="30" placeholder="Last name" required>
             <input class="input txt" name="email" id="email" type="email" placeholder="Email address" required>
             <textarea name="messege" id="messege" cols="30" rows="5" maxlength="500" required placeholder="Write me something..."></textarea>
            <div id="submit"> <button class="art-btn" type="submit">Get in touch</button></div>   

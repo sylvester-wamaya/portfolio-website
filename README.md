@@ -66,6 +66,10 @@ My Portfolio Website is a project that describes me as a programmer, my skills, 
 - Added style.css file.
 - Added header.
 - Added headline section.
+- Added Works section
+- Added About me section
+- Added Contact form section
+- Added Footer.
 - Added responsivenes css.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -160,8 +164,9 @@ explorer.exe index.html
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Add Projects section.
-- [ ] Add Footer
-- [ ] Add more styling
+- [ ] Add mobile version menu.
+- [ ] Add more styling.
+- [ ] Add Javascript to the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
