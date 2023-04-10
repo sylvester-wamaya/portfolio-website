@@ -107,8 +107,9 @@ a {
   #desk-nav {
     display: none;
   }
-  #menu-icon{
-    height: 3.2vw;
+
+  #menu-icon {
+    height: 5vw;
     width: auto;
   }
 
