@@ -109,7 +109,7 @@ a {
   }
 
   #logo {
-    width: 20vw;
+    width: 100%;
     height: auto;
     border-radius: 50%;
   }
