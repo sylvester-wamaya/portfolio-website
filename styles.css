@@ -107,6 +107,10 @@ a {
   #desk-nav {
     display: none;
   }
+  #menu-icon{
+    height: 3.2vw;
+    width: auto;
+  }
 
   #logo {
     width: 100%;
