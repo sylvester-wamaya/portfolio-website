@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  <img src="media/logo_200x200.png" alt="logo" width="140"  height="auto" />
+  <img src="media/favicon_io/favicon.ico" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>My Portfolio Website</b></h3>
@@ -52,7 +52,7 @@ My Portfolio Website is a project that describes me as a programmer, my skills, 
   <summary>Client</summary>
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
-    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/">CSS</a></li>
   </ul>
 </details>
 
@@ -71,6 +71,8 @@ My Portfolio Website is a project that describes me as a programmer, my skills, 
 - Added Contact form section
 - Added Footer.
 - Added responsivenes css.
+- Added animation
+- Added favicon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +80,8 @@ My Portfolio Website is a project that describes me as a programmer, my skills, 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming soon...
+Watch the live demo at the following link: 
+https://sylvester-wamaya.github.io/portfolio-website/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +145,8 @@ explorer.exe index.html
 
 ### Deployment
 
-> Coming soon
+The project is deployed by github pages under the following link:
+https://sylvester-wamaya.github.io/portfolio-website/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
