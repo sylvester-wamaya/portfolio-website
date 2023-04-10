@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Crete Round
+- Font Author: Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved Font Names "Crete" and "Crete Round"
+- Font Source: http://fonts.gstatic.com/s/creteround/v14/55xoey1sJNPjPiv1ZZZrxJ1827zAKnxN.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

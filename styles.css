@@ -108,8 +108,13 @@ a {
     display: none;
   }
 
+  #menu-icon {
+    height: 5vw;
+    width: auto;
+  }
+
   #logo {
-    width: 10%;
+    width: 100%;
     height: auto;
     border-radius: 50%;
   }
@@ -432,7 +437,8 @@ a {
   .desk-nav {
     margin-right: 2.2vw;
     font-weight: 600;
-    font-size: 1vw;
+    font-size: 1.3vw;
+    line-height: 1.4vw;
   }
 
   #desk-nav {
