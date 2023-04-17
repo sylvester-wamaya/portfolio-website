@@ -109,6 +109,7 @@ a {
     flex-direction: column;
     width: 100%;
     margin-top: 3.2vw;
+    height: 100vh; 
 
   }
 
@@ -119,6 +120,7 @@ a {
     border-bottom: solid 0.27vw #6F6C6B;
     margin-top: 2.4vw;
     padding: 0 4.3vw;
+    
   }
   .desk-nav a{
     color:#FFF5E1;
@@ -452,7 +454,9 @@ a {
     height: 5vw;
     border-radius: 50%;
   }
-
+  #close{
+  display: none;
+    }
   #menu-icon {
     display: none;
   }
