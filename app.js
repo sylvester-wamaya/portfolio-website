@@ -5,8 +5,6 @@ const closeIcon = document.querySelector('#close img');
 const menuList = document.querySelectorAll('.desk-nav');
 
 
-const projList = document.querySelectorAll
-
 function show() {
   mobileNav.style.display = 'flex';
   mobileMenu.style.display = 'none';
@@ -90,3 +88,37 @@ const projects = [
     sourceLink: "https://github.com/sylvester-wamaya/portfolio-website"
  }
 ]
+const works = document.querySelector("#project-items")
+const articlElement = document.querySelector("article")
+
+articlElement.innerHTML = 
+`
+<h2 id="article-h" class="project-title">${projects[0].name}</h2>
+<p  class="article-p text">${projects[0].description}</p>
+<ul class="btn no-style-deco" id="article-btn">
+    <li> <button type="button" class="grey-button">${projects[0].technologies[0]}</button></li>
+    <li> <button type="button" class="grey-button">${projects[0].technologies[1]}</button></li>
+    <li><button type="button" class="grey-button">${projects[0].technologies[2]}</button></li>
+    <li> <button type="button" class="grey-button">${projects[0].technologies[3]}</button></li>
+</ul>
+<button type="button" class="art-btn">See project</button>
+`;
+
+projects.forEach((work, value)=>{
+    if (value>0) {
+        
+  const proj = document.createElement("li")
+  proj.classList.add("project-item")
+  proj.innerHTML =
+    `
+    <h2 class="title">${projects[value].name}</h2>
+    <p class="text">${projects[value].description}</p>
+    <ul class="btn no-style-deco">
+        <li> <button type="button" class="grey-button">${projects[value].technologies[0]}</button></li>
+        <li> <button type="button" class="grey-button">${projects[value].technologies[1]}</button></li>
+        <li><button type="button" class="grey-button">${projects[value].technologies[2]}</button></li>
+    </ul>
+<button type="button" class="orange-button">See project</button> 
+  `;  
+  works.appendChild(proj)
+}})
