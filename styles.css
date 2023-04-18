@@ -106,6 +106,32 @@ a {
 
   #desk-nav {
     display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3.2vw;
+    height: 100vh;
+  }
+
+  .desk-nav {
+    font-weight: 700;
+    font-size: 8.53vw;
+    line-height: 11.8vw;
+    border-bottom: solid 0.27vw #6f6c6b;
+    margin-top: 2.4vw;
+    padding: 0 4.3vw;
+  }
+
+  .desk-nav a {
+    color: #fff5e1;
+  }
+
+  #mail {
+    display: none;
+  }
+
+  #close {
+    align-self: end;
+    border: 0;
   }
 
   #menu-icon {
@@ -428,6 +454,10 @@ a {
     width: auto;
     height: 5vw;
     border-radius: 50%;
+  }
+
+  #close {
+    display: none;
   }
 
   #menu-icon {
