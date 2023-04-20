@@ -169,7 +169,7 @@ linkButton.forEach((par, index) => {
     </div>
     </div>
  `;
-    } else if (width > 768) {
+    } else {
       modal.innerHTML = `<div class="modal-header">
         <h2 class="project-title">${projects[index].name[1]}</h2>
         <div id="modal-close"><img src="media/Icon.png" alt="close"></div>
