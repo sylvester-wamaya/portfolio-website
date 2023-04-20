@@ -31,7 +31,7 @@ const projects = [
 
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
-    technologies: ["CSS", "HTML", "Bootstrap", "Ruby"] ,
+    technologies: ["HTML", "Bootstrap",  "Ruby on Rails", "CSS", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
     sourceLink: "https://github.com/sylvester-wamaya/portfolio-website"
  },
@@ -42,7 +42,7 @@ const projects = [
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
-    technologies: ["HTML", "Bootstrap", "Ruby"] ,
+    technologies: ["HTML", "Bootstrap", "Ruby on Rails", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
     sourceLink: "https://github.com/sylvester-wamaya/portfolio-website"
  },
@@ -53,7 +53,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
-    technologies: ["HTML", "Bootstrap", "Ruby"] ,
+    technologies: ["HTML", "Bootstrap", "Ruby on Rails", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
     sourceLink: "https://github.com/sylvester-wamaya/portfolio-website"
  },
@@ -64,7 +64,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
-    technologies: ["HTML", "Bootstrap", "Ruby"] ,
+    technologies: ["HTML", "Bootstrap", "Ruby on Rails", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
     sourceLink: "https://github.com/sylvester-wamaya/portfolio-website"
  },
@@ -75,7 +75,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
-    technologies: ["HTML", "Bootstrap", "Ruby"] ,
+    technologies: ["HTML", "Bootstrap", "Ruby on Rails", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
     sourceLink: "https://github.com/sylvester-wamaya/portfolio-website"
  },
@@ -86,7 +86,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
-    technologies: ["HTML", "Bootstrap", "Ruby"] ,
+    technologies: ["HTML", "Bootstrap", "Ruby on Rails", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
     sourceLink: "https://github.com/sylvester-wamaya/portfolio-website"
  },
@@ -97,7 +97,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
-    technologies: ["HTML", "Bootstrap", "Ruby"] ,
+    technologies: ["HTML", "Bootstrap", "Ruby on Rails", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
     sourceLink: "https://github.com/sylvester-wamaya/portfolio-website"
  }
@@ -110,10 +110,10 @@ articlElement.innerHTML =
 <h2 id="article-h" class="project-title">${projects[0].name[0]}</h2>
 <p  class="article-p text">${projects[0].description[0]}</p>
 <ul class="btn no-style-deco" id="article-btn">
-    <li> <button type="button" class="grey-button">${projects[0].technologies[0]}</button></li>
-    <li> <button type="button" class="grey-button">${projects[0].technologies[1]}</button></li>
-    <li><button type="button" class="grey-button">${projects[0].technologies[2]}</button></li>
     <li> <button type="button" class="grey-button">${projects[0].technologies[3]}</button></li>
+    <li> <button type="button" class="grey-button">${projects[0].technologies[0]}</button></li>
+    <li><button type="button" class="grey-button">${projects[0].technologies[1]}</button></li>
+    <li> <button type="button" class="grey-button">${projects[0].technologies[4]}</button></li>
 </ul>
 <button type="button" class="art-btn link-btn">See project</button>
 `;
@@ -130,7 +130,7 @@ projects.forEach((work, value)=>{
     <ul class="btn no-style-deco">
         <li> <button type="button" class="grey-button">${projects[value].technologies[0]}</button></li>
         <li> <button type="button" class="grey-button">${projects[value].technologies[1]}</button></li>
-        <li><button type="button" class="grey-button">${projects[value].technologies[2]}</button></li>
+        <li><button type="button" class="grey-button">${projects[value].technologies[3]}</button></li>
         
     </ul>
 <button type="button" class="orange-button link-btn">See project</button> 
@@ -165,8 +165,8 @@ par.addEventListener("click",() =>{
     <div class="modal-p">
     <p class="text">${projects[index].description[2]}</p>
    <div id="mod-btn">
-    <button type="button" class="art-btn link-btn">See live<img src="media/Icon-see live.png" alt="icon"></button>
-    <button type="button" class="art-btn link-btn">See source<img src="media/Vector.png" alt="icon"></button>
+    <button type="button" class="art-btn link-btn">See live<img class="modal-icon" src="media/Icon-see live.png" alt="icon"></button>
+    <button type="button" class="art-btn link-btn">See source<img class="modal-icon" src="media/Vector.png" alt="icon"></button>
     </div>
     </div>
     </div>
@@ -187,8 +187,8 @@ par.addEventListener("click",() =>{
         <div class="modal-p">
         <p class="text">${projects[index].description[1]}</p>
        <div id="mod-btn">
-        <button type="button" class="art-btn link-btn">See live<img src="media/Icon-see live.png" alt="icon"></button>
-        <button type="button" class="art-btn link-btn">See source<img src="media/Vector.png" alt="icon"></button>
+        <button type="button" class="art-btn link-btn">See live<img class="modal-icon" src="media/Icon-see live.png" alt="icon"></button>
+        <button type="button" class="art-btn link-btn">See source<img class="modal-icon" src="media/Vector.png" alt="icon"></button>
         </div>
         </div>
         </div>
