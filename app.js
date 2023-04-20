@@ -166,12 +166,13 @@ linkButton.forEach((par, index) => {
     <div class="modal-p">
     <p class="text">${projects[index].description[2]}</p>
    <div id="mod-btn">
-   <a href="#">
-     <button type="button" class="art-btn link-btn">See source<img class="modal-icon" src="media/Vector.png" alt="icon"></button>
-   </a> 
+
     <a href="#">
     <button type="button" class="art-btn link-btn">See live<img class="modal-icon" src="media/Icon-see live.png" alt="icon"></button>    
     </a>
+    <a href="#">
+    <button type="button" class="art-btn link-btn">See source<img class="modal-icon" src="media/Vector.png" alt="icon"></button>
+  </a> 
     </div>
     </div>
     </div>
