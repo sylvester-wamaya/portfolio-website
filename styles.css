@@ -527,6 +527,9 @@ overflow-x:hidden;
     padding: 2.7vw 3.2vw;
     
   }
+  #mod-btn .modal-icon{
+    margin-left: 4.3vw;
+  }
 
 }
 
@@ -881,5 +884,8 @@ z-index: 50;
 background-color: white;
 width: 90vw;
 height: auto;
+  }
+  #mod-btn .modal-icon{
+    margin-left: 1vw;
   }
 }
