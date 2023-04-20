@@ -29,7 +29,7 @@ const projects = [
     name: ["Multi-Post Stories","Keeping track of hundreds  of components website"],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`],
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
     technologies: ["CSS", "HTML", "Bootstrap", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
@@ -40,7 +40,7 @@ const projects = [
     name: ["Multi-Post Stories","Keeping track of hundreds  of components website"],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`],
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
     technologies: ["HTML", "Bootstrap", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
@@ -51,7 +51,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     name: ["Multi-Post Stories","Keeping track of hundreds  of components website"], 
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`],
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
     technologies: ["HTML", "Bootstrap", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
@@ -62,7 +62,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     name: ["Multi-Post Stories","Keeping track of hundreds  of components website"],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`],
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
     technologies: ["HTML", "Bootstrap", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
@@ -73,7 +73,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     name: ["Multi-Post Stories","Keeping track of hundreds  of components website"],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`],
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
     technologies: ["HTML", "Bootstrap", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
@@ -84,7 +84,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     name: ["Multi-Post Stories","Keeping track of hundreds  of components website"], 
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`],
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
     technologies: ["HTML", "Bootstrap", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
@@ -95,7 +95,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     name: ["Multi-Post Stories","Keeping track of hundreds  of components website"],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`],
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`],
     image: ["media/Img Placeholder.png","media/pop.png"],
     technologies: ["HTML", "Bootstrap", "Ruby"] ,
     liveLink: "https://sylvester-wamaya.github.io/portfolio-website/",
@@ -144,14 +144,18 @@ const linkButton = document.querySelectorAll(".link-btn")
 
 linkButton.forEach((par, index)=>{ 
 par.addEventListener("click",() =>{
+
     const modal = document.createElement("div")
+    const overlay = document.createElement("div")
     modal.className = "modal"
-    modal.innerHTML = 
+    let width = window.innerWidth
+    if (width < 768) {
+        modal.innerHTML = 
     `<div class="modal-header">
-    <h2 class="project-title">${projects[index].name[1]}</h2>
-    <div><img src="media/Icon.png" alt="close"></div>
+    <h2 class="project-title">${projects[index].name[0]}</h2>
+    <div id="modal-close"><img src="media/Icon.png" alt="close"></div>
     </div>
-    <ul class="btn no-style-deco">
+    <ul class="btn no-style-deco" id="btn-modal">
         <li> <button type="button" class="grey-button modal-btn">${projects[index].technologies[0]}</button></li>
         <li> <button type="button" class="grey-button modal-btn">${projects[index].technologies[1]}</button></li>
         <li><button type="button" class="grey-button modal-btn">${projects[index].technologies[2]}</button></li>        
@@ -159,14 +163,49 @@ par.addEventListener("click",() =>{
     <div id="modal-main">
     <img id="image" src="${projects[index].image[1]}" alt="popup image">
     <div class="modal-p">
-    <p class="text">${projects[index].description[1]}</p>
-   <div>
+    <p class="text">${projects[index].description[2]}</p>
+   <div id="mod-btn">
     <button type="button" class="art-btn link-btn">See live<img src="media/Icon-see live.png" alt="icon"></button>
     <button type="button" class="art-btn link-btn">See source<img src="media/Vector.png" alt="icon"></button>
     </div>
     </div>
     </div>
  `
+    } else if(width > 768){
+        modal.innerHTML = 
+        `<div class="modal-header">
+        <h2 class="project-title">${projects[index].name[1]}</h2>
+        <div id="modal-close"><img src="media/Icon.png" alt="close"></div>
+        </div>
+        <ul class="btn no-style-deco" id="btn-modal">
+            <li> <button type="button" class="grey-button modal-btn">${projects[index].technologies[0]}</button></li>
+            <li> <button type="button" class="grey-button modal-btn">${projects[index].technologies[1]}</button></li>
+            <li><button type="button" class="grey-button modal-btn">${projects[index].technologies[2]}</button></li>        
+        </ul>
+        <div id="modal-main">
+        <img id="image" src="${projects[index].image[1]}" alt="popup image">
+        <div class="modal-p">
+        <p class="text">${projects[index].description[1]}</p>
+       <div id="mod-btn">
+        <button type="button" class="art-btn link-btn">See live<img src="media/Icon-see live.png" alt="icon"></button>
+        <button type="button" class="art-btn link-btn">See source<img src="media/Vector.png" alt="icon"></button>
+        </div>
+        </div>
+        </div>
+     `  
+    }
+    
 body.insertAdjacentElement('afterBegin', modal)
+overlay.className = "blur"
+body.appendChild(overlay)
+const closeBtn = document.querySelector("#modal-close")
+closeBtn.style.cursor = "pointer"
+closeBtn.addEventListener("click", ()=>{
+    body.removeChild(modal)
+    body.removeChild(overlay)
+})
 })})
+
+
+
 
