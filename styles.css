@@ -98,6 +98,40 @@ a {
   background: #1c1a19;
 }
 
+.modal-header,
+#modal-main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.btn .modal-btn {
+  color: #091e42;
+  border: 0.07vw solid #8993a4;
+  font-weight: 500;
+  font-size: 1vw;
+  padding: 0.7vw 0.83vw;
+  margin-right: 0.83vw;
+}
+
+.modal-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blur {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 200ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
 @media only screen and (max-width: 768px) {
   /* Nav bar styling */
   #navbar {
@@ -173,6 +207,10 @@ a {
 
   .project-item p {
     width: 80vw;
+  }
+
+  .modal-p p {
+    color: rgb(0, 0, 0);
   }
 
   #home p {
@@ -441,6 +479,64 @@ a {
     width: 35.8vw;
     margin: 12.5vw auto 3vw auto;
     border-radius: 2.7vw;
+  }
+
+  #modal-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #modal-main #image {
+    width: 100%;
+    height: auto;
+    max-height: 50vw;
+    margin: 6.4vw 0;
+  }
+
+  .modal-header {
+    margin-bottom: 6.5vw;
+  }
+
+  #btn-modal {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #mod-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modal {
+    display: flex;
+    flex-direction: column;
+    left: 5vw;
+    right: 5vw;
+    top: 5vw;
+    bottom: 5vw;
+    padding: 4.3vw;
+    position: fixed;
+    transition: 200ms ease-in-out;
+    border: 1px solid #ebecf0;
+    border-radius: 10px;
+    z-index: 50;
+    background-color: white;
+    width: 90vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .btn .modal-btn {
+    color: #091e42;
+    border: 0.27vw solid #8993a4;
+    font-weight: 600;
+    font-size: 3.5vw;
+    padding: 2.7vw 3.2vw;
+  }
+
+  #mod-btn .modal-icon {
+    margin-left: 4.3vw;
   }
 }
 
@@ -768,5 +864,40 @@ a {
     padding: 0.83vw;
     color: #5b5957;
     background-color: #f4f1f0;
+  }
+
+  #modal-main {
+    margin-top: 5vw;
+  }
+
+  #modal-main #image {
+    margin-right: 1.8vw;
+    width: 50%;
+    height: auto;
+  }
+
+  .modal-header {
+    margin-bottom: 0.83vw;
+  }
+
+  .modal {
+    padding: 2vw;
+    right: 5vw;
+    left: 5vw;
+    position: fixed;
+    top: 2vw;
+    transition: 200ms ease-in-out;
+    border: 1px solid #ebecf0;
+    border-radius: 10px;
+    z-index: 50;
+    background-color: white;
+    width: 90vw;
+    height: auto;
+  }
+
+  #mod-btn .modal-icon {
+    margin-left: 1vw;
+    height: 1.2vw;
+    width: auto;
   }
 }
