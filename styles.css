@@ -522,7 +522,7 @@ a {
     z-index: 50;
     background-color: white;
     width: 90vw;
-    height: 100vh;
+    height: auto;
     overflow-y: scroll;
     overflow-x: hidden;
   }
@@ -882,10 +882,10 @@ a {
 
   .modal {
     padding: 2vw;
-    right: 5vw;
-    left: 5vw;
+    left: 50%;
     position: fixed;
-    top: 2vw;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
     transition: 200ms ease-in-out;
     border: 1px solid #ebecf0;
     border-radius: 10px;
