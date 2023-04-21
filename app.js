@@ -231,3 +231,25 @@ form.addEventListener('submit', (event) => {
   }
 });
 mail.addEventListener('click', () => container.removeChild(msg));
+
+const fName = form.elements.fname;
+const lName = form.elements.lname;
+const mInput = form.elements.messege;
+
+const data = JSON.parse(localStorage.getItem('formData'));
+
+if (data) {
+  fName.value = data.fname;
+  lName.value = data.lname;
+  mail.value = data.email;
+  mInput.value = data.messege;
+}
+form.addEventListener('input', () => {
+  const formData = {
+    fname: fName.value,
+    lname: lName.value,
+    email: mail.value,
+    messege: mInput.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
