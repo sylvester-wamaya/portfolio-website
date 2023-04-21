@@ -222,8 +222,8 @@ const container = document.querySelector('#field');
 const msg = document.createElement('small');
 
 form.addEventListener('submit', (event) => {
-  const emailRegex = (/^[a-z]+$/);
-  if (!emailRegex.test(mail.value)) {
+  const emailRegex = (/[A-Z]/);
+  if (emailRegex.test(mail.value)) {
     event.preventDefault();
     msg.innerHTML = 'Please enter lowercase letters only in your email.';
     mail.style.border = '1px solid red';
