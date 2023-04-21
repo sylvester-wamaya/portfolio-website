@@ -228,5 +228,5 @@ form.addEventListener("submit", (event)=>{
     msg.innerText = "Please enter lowercase letters only in your email."
    container.appendChild(msg)
   }
-
 })
+mail.addEventListener('click', () => { msg.innerHTML = ''});
