@@ -130,11 +130,13 @@ a {
   transition: 200ms ease-in-out;
   background-color: rgba(0, 0, 0, 0.5);
 }
-small{
+
+small {
   color: red;
   transition: 200ms ease-in-out;
 }
-#field .input{
+
+#field .input {
   margin: 0;
 }
 
@@ -442,7 +444,7 @@ small{
     border-bottom: 0.4vw solid #dfe1e6;
   }
 
-  #field{
+  #field {
     margin-bottom: 6.5vw;
   }
 
@@ -810,7 +812,7 @@ small{
     border-bottom: 0.07vw solid #dfe1e6;
   }
 
-  #field{
+  #field {
     margin-bottom: 1.7vw;
   }
 
