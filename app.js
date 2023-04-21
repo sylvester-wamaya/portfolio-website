@@ -244,4 +244,12 @@ if(data){
   mail.value = data.email
   mInput.value = data.messege
 }
-
+form.addEventListener("input", ()=>{
+  const formData = {
+    fname: fName.value,
+    lname: lName.value,
+    email: mail.value,
+    messege: mInput.value
+  }
+  localStorage.setItem("formData", JSON.stringify(formData))
+});
