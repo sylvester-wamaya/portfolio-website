@@ -1,3 +1,4 @@
+/* Mobile menu on clicking the humburger */
 const mobileMenu = document.querySelector('#menu-icon');
 const mobileNav = document.querySelector('#desk-nav');
 const logo = document.querySelector('#logo');
@@ -20,6 +21,7 @@ mobileMenu.addEventListener('click', show);
 closeIcon.addEventListener('click', close);
 menuList.forEach((nav) => nav.addEventListener('click', close));
 
+/* Store projects' data in javascript objects */
 const projects = [
   {
     id: 1,
@@ -99,6 +101,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
   },
 ];
+
+/* Render projects dynamicaaly to the HTML document */
+
 const works = document.querySelector('#project-items');
 const articlElement = document.querySelector('article');
 
@@ -133,6 +138,7 @@ projects.forEach((work, value) => {
   }
 });
 
+/* Add modal tot the website upon clicking the projects' link */
 const body = document.querySelector('body');
 
 const linkButton = document.querySelectorAll('.link-btn');
@@ -207,3 +213,21 @@ linkButton.forEach((par, index) => {
     });
   });
 });
+
+/* Validate form email field by restricting to small letters only */
+
+const form = document.querySelector('#contact-form');
+const mail = form.elements.email;
+const container = document.querySelector('#field');
+const msg = document.createElement('small');
+
+form.addEventListener('submit', (event) => {
+  const emailRegex = (/[A-Z]/);
+  if (emailRegex.test(mail.value)) {
+    event.preventDefault();
+    msg.innerHTML = 'Please enter lowercase letters only in your email.';
+    mail.style.border = '1px solid red';
+    container.appendChild(msg);
+  }
+});
+mail.addEventListener('click', () => container.removeChild(msg));

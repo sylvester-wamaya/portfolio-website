@@ -131,6 +131,15 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+small {
+  color: red;
+  transition: 200ms ease-in-out;
+}
+
+#field .input {
+  margin: 0;
+}
+
 @media only screen and (max-width: 768px) {
   /* Nav bar styling */
   #navbar {
@@ -433,6 +442,10 @@ a {
     border-left: none;
     border-right: none;
     border-bottom: 0.4vw solid #dfe1e6;
+  }
+
+  #field {
+    margin-bottom: 6.5vw;
   }
 
   #contact-me p {
@@ -797,6 +810,10 @@ a {
     border-left: none;
     border-right: none;
     border-bottom: 0.07vw solid #dfe1e6;
+  }
+
+  #field {
+    margin-bottom: 1.7vw;
   }
 
   #contact-me p {
