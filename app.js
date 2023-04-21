@@ -218,15 +218,16 @@ linkButton.forEach((par, index) => {
 
 const form = document.querySelector("#contact-form")
 const mail = form.elements["email"]
-const container = document.querySelector(".field")
+const container = document.querySelector("#field")
+const msg = document.createElement("small")
 
 form.addEventListener("submit", (event)=>{
   const emailRegex = (/^[a-z]+$/)
   if (!emailRegex.test(mail.value)) {
     event.preventDefault();
-    const msg = document.createElement("small")
-    msg.innerText = "Please enter lowercase letters only in your email."
+    msg.innerHTML = "Please enter lowercase letters only in your email."
+    mail.style.border = "1px solid red"
    container.appendChild(msg)
   }
 })
-mail.addEventListener('click', () => { msg.innerHTML = ''});
+mail.addEventListener('click', () => container.removeChild(msg));
