@@ -139,6 +139,10 @@ small {
 #field .input {
   margin: 0;
 }
+#modal-close:hover, .social-item:hover, .desk-nav:hover{
+  scale: 1.5;
+  transition: all 0.4s;
+}
 
 @media only screen and (max-width: 768px) {
   /* Nav bar styling */
@@ -306,6 +310,7 @@ small {
     border: solid #f55800;
     color: #f55800;
     background-color: #fff5e1;
+    transition: all 0.6s;
   }
 
   button:disabled {
@@ -621,6 +626,7 @@ small {
   .project-item:hover p,
   .project-item:hover h2 {
     display: none;
+    transition: all 0.6s;
   }
 
   #home h2 {
@@ -735,6 +741,7 @@ small {
     background-image: url("media/Img 1.png");
     padding: 0;
     border: 0.14vw solid #262626;
+    transition: all 0.4s;
   }
 
   .art-btn {
@@ -754,6 +761,7 @@ small {
 
   .project-item:hover .orange-button {
     display: block;
+    transition: all 0.4s;
   }
 
   #intro {
@@ -874,6 +882,7 @@ small {
     border: solid #f55800;
     color: #f55800;
     background-color: #fff5e1;
+    transition: all 0.6s;
   }
 
   button:disabled {
