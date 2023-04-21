@@ -130,6 +130,13 @@ a {
   transition: 200ms ease-in-out;
   background-color: rgba(0, 0, 0, 0.5);
 }
+small{
+  color: tomato;
+  background-color: whitesmoke;
+}
+form .field .input{
+  margin: 0;
+}
 
 @media only screen and (max-width: 768px) {
   /* Nav bar styling */
@@ -434,6 +441,7 @@ a {
     border-right: none;
     border-bottom: 0.4vw solid #dfe1e6;
   }
+
 
   #contact-me p {
     margin-bottom: 25vw;
