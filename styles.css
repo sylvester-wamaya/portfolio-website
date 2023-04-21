@@ -139,7 +139,10 @@ small {
 #field .input {
   margin: 0;
 }
-#modal-close:hover, .social-item:hover, .desk-nav:hover{
+
+#modal-close:hover,
+.social-item:hover,
+.desk-nav:hover {
   scale: 1.5;
   transition: all 0.4s;
 }
