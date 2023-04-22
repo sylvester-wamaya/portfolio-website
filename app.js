@@ -13,9 +13,11 @@ function show() {
 }
 
 function close() {
-  logo.style.display = '';
-  mobileMenu.style.display = '';
-  mobileNav.style.display = 'none';
+  if (width < 768) {
+    logo.style.display = '';
+    mobileMenu.style.display = '';
+    mobileNav.style.display = 'none';
+  }
 }
 
 mobileMenu.addEventListener('click', show);
