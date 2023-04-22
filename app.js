@@ -1,4 +1,5 @@
 /* Mobile menu on clicking the humburger */
+const width = window.innerWidth;
 const mobileMenu = document.querySelector('#menu-icon');
 const mobileNav = document.querySelector('#desk-nav');
 const logo = document.querySelector('#logo');
@@ -12,9 +13,11 @@ function show() {
 }
 
 function close() {
-  logo.style.display = '';
-  mobileMenu.style.display = '';
-  mobileNav.style.display = 'none';
+  if (width < 768) {
+    logo.style.display = '';
+    mobileMenu.style.display = '';
+    mobileNav.style.display = 'none';
+  }
 }
 
 mobileMenu.addEventListener('click', show);
@@ -29,7 +32,7 @@ const projects = [
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img Placeholder.png', 'media/pop.png'],
+    image: ['media/Img 1.png', 'media/pop.png'],
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'CSS', 'Ruby'],
     liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
@@ -40,29 +43,29 @@ const projects = [
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img Placeholder.png', 'media/pop.png'],
+    image: ['media/Img 1.png', 'media/pop.png'],
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
     liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
   },
   {
     id: 3,
-    name: ['Multi-Post Stories', 'Keeping track of hundreds  of components website'],
+    name: ['Data Dashboard Healthcare', 'Keeping track of hundreds  of components website'],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img Placeholder.png', 'media/pop.png'],
+    image: ['media/Img 1.png', 'media/pop.png'],
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
     liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
   },
   {
     id: 4,
-    name: ['Multi-Post Stories', 'Keeping track of hundreds  of components website'],
+    name: ['Website Portfolio', 'Keeping track of hundreds  of components website'],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img Placeholder.png', 'media/pop.png'],
+    image: ['media/Img 1.png', 'media/pop.png'],
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
     liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
@@ -73,29 +76,29 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img Placeholder.png', 'media/pop.png'],
+    image: ['media/Img 1.png', 'media/pop.png'],
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
     liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
   },
   {
     id: 6,
-    name: ['Multi-Post Stories', 'Keeping track of hundreds  of components website'],
+    name: ['Data Dashboard Healthcare', 'Keeping track of hundreds  of components website'],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img Placeholder.png', 'media/pop.png'],
+    image: ['media/Img 1.png', 'media/pop.png'],
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
     liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
   },
   {
     id: 7,
-    name: ['Multi-Post Stories', 'Keeping track of hundreds  of components website'],
+    name: ['Website Portfolio', 'Keeping track of hundreds  of components website'],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img Placeholder.png', 'media/pop.png'],
+    image: ['media/Img 1.png', 'media/pop.png'],
     technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
     liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
@@ -116,7 +119,9 @@ articlElement.innerHTML = `
     <li><button type="button" class="grey-button">${projects[0].technologies[1]}</button></li>
     <li> <button type="button" class="grey-button">${projects[0].technologies[4]}</button></li>
 </ul>
+<div>
 <button type="button" class="art-btn link-btn">See project</button>
+</div>
 `;
 
 projects.forEach((work, value) => {
@@ -124,6 +129,7 @@ projects.forEach((work, value) => {
     const proj = document.createElement('li');
     proj.classList.add('project-item');
     proj.innerHTML = `
+    <img class="proj-img"src="${projects[value].image[0]}" alt="projects">
     <h2 class="title">${projects[value].name[0]}</h2>
     <p class="text">${projects[value].description[0]}</p>
     <ul class="btn no-style-deco">
@@ -138,7 +144,7 @@ projects.forEach((work, value) => {
   }
 });
 
-/* Add modal tot the website upon clicking the projects' link */
+/* Add modal to the website upon clicking the projects' link */
 const body = document.querySelector('body');
 
 const linkButton = document.querySelectorAll('.link-btn');
@@ -148,7 +154,6 @@ linkButton.forEach((par, index) => {
     const modal = document.createElement('div');
     const overlay = document.createElement('div');
     modal.className = 'modal';
-    const width = window.innerWidth;
     if (width < 768) {
       modal.innerHTML = `<div class="modal-header">
     <h2 class="project-title">${projects[index].name[0]}</h2>
