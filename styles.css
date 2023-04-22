@@ -17,6 +17,19 @@ body {
   position: relative;
 }
 
+ .scroll{
+  position: fixed;
+  width: 100%;
+  z-index: 40;
+}
+
+.proj-img{
+  width: auto;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
 @keyframes logo {
   0% {
     transform: rotate(0deg);
@@ -25,17 +38,17 @@ body {
 
   25% {
     transform: rotate(90deg);
-    left: 10vw;
+    left: 0;
   }
 
   50% {
     transform: rotate(180deg);
-    left: 20vw;
+    left: 0;
   }
 
   75% {
     transform: rotate(270deg);
-    left: 10vw;
+    left: 0;
   }
 
   100% {
@@ -77,9 +90,9 @@ a {
 }
 
 .project-item {
-  background-image: url("media/Img Placeholder.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+
 }
 
 .title {
@@ -140,11 +153,16 @@ small {
   margin: 0;
 }
 
-#modal-close:hover,
-.social-item:hover,
-.desk-nav:hover {
-  scale: 1.5;
-  transition: all 0.4s;
+
+#logo:hover{
+  top:0.7vw;
+  scale: 1.25;
+  transition: all 0.6s;
+}
+.project-item p,
+.project-item h2,
+.project-item .btn {
+position: absolute;
 }
 
 @media only screen and (max-width: 768px) {
@@ -288,6 +306,7 @@ small {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    position: relative;
   }
 
   .title {
@@ -313,7 +332,7 @@ small {
     border: solid #f55800;
     color: #f55800;
     background-color: #fff5e1;
-    transition: all 0.6s;
+    transition: all 0.4s;
   }
 
   button:disabled {
@@ -330,7 +349,7 @@ small {
     width: 100%;
     color: #fff;
     border: inherit;
-    margin-top: 5.9vw;
+    position: absolute;
   }
 
   .project-item ul {
@@ -558,6 +577,16 @@ small {
   #mod-btn .modal-icon {
     margin-left: 4.3vw;
   }
+  .project-item h2{
+    bottom: 62.1vw;
+  }
+  .project-item .btn{
+    bottom: 18.67vw;
+    display: flex;
+  }
+  .project-item .text{
+    bottom: 32.53vw;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -629,7 +658,6 @@ small {
   .project-item:hover p,
   .project-item:hover h2 {
     display: none;
-    transition: all 0.6s;
   }
 
   #home h2 {
@@ -675,6 +703,8 @@ small {
     width: 28vw;
     float: right;
     margin-bottom: 9.5vw;
+    display: flex;
+    flex-direction: column;
   }
 
   .line {
@@ -717,7 +747,7 @@ small {
     color: #fff;
     font-size: 1.15vw;
     line-height: 1.7vw;
-    margin: 1.6vw 0;
+    bottom: 5.6vw;
   }
 
   .grey-button {
@@ -741,10 +771,10 @@ small {
   }
 
   .project-item:hover {
-    background-image: url("media/Img 1.png");
     padding: 0;
     border: 0.14vw solid #262626;
     transition: all 0.4s;
+    background:none;
   }
 
   .art-btn {
@@ -885,7 +915,7 @@ small {
     border: solid #f55800;
     color: #f55800;
     background-color: #fff5e1;
-    transition: all 0.6s;
+    transition: all 0.4s;
   }
 
   button:disabled {
@@ -928,4 +958,19 @@ small {
     height: 1.2vw;
     width: auto;
   }
+  .project-item h2{
+    bottom: 12.2vw;
+  }
+  .project-item .btn{
+    bottom: 1.11vw;
+    display: flex;
+  }
+
+  #modal-close:hover,
+.social-item:hover,
+.desk-nav:hover{
+  scale: 1.5;
+  transition: all 0.4s;
+}
+
 }
