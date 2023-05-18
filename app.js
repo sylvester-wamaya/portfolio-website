@@ -28,47 +28,45 @@ menuList.forEach((nav) => nav.addEventListener('click', close));
 const projects = [
   {
     id: 1,
-    name: ['Multi-Post Stories', 'Keeping track of hundreds  of components website'],
-    description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+    name: ['Social Finance', 'Social Finance Platform'],
+    description: ["A landing page for a pseudo fintech company. A user can view the company's description, the products, board members, partners and the About section. Developed with HTML.", `A landing page for a pseudo fintech company. A user can view the company's description, the products, board members, partners and the About section. Developed with HTML., when an unknown printer took a galley of type and scrambled it 1960s.
 
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img 1.png', 'media/pop.png'],
-    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'CSS', 'Ruby'],
-    liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
-    sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
+    image: ['media/sofi.png', 'media/sofi.png'],
+    technologies: ['HTML', 'Javascript', 'Ruby on Rails', 'CSS'],
+    liveLink: 'https://sylvester-wamaya.github.io/social-finance/',
+    sourceLink: 'https://github.com/sylvester-wamaya/social-finance',
   },
   {
     id: 2,
-    name: ['Multi-Post Stories', 'Keeping track of hundreds  of components website'],
-    description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+    name: ['Awesome Books', 'Awesome Books Application'],
+    description: ["A book catalogue application. A user can add a book, remove a book and view added books. Developed with Javascript.", `A book catalogue application. A user can add a book, remove a book and view added books. Developed with Javascript., when an unknown printer took a galley of type and scrambled it 1960s.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img 1.png', 'media/pop.png'],
-    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
-    liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
-    sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
+    image: ['media/book.png', 'media/pop.png'],
+    technologies: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript'],
+    liveLink: 'https://sylvester-wamaya.github.io/awesome_books_E6/',
+    sourceLink: 'https://github.com/sylvester-wamaya/awesome_books_E6',
   },
   {
     id: 3,
-    name: ['Data Dashboard Healthcare', 'Keeping track of hundreds  of components website'],
-    description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+    name: ['A To do App', 'To do List Application'],
+    description: ["A to do list application where a user can add tasks edit, mark completed and delete either one by one or all selected items.", `A to do list application where a user can keep track of the to do activities by adding them, editing, marking completed and deleting either one by one or all selected items. Built with Javascript.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img 1.png', 'media/pop.png'],
-    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
-    liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
-    sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
+    image: ['media/todo.PNG', 'media/pop.png'],
+    technologies: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript'],
+    liveLink: 'https://sylvester-wamaya.github.io/to-do-list/',
+    sourceLink: 'https://github.com/sylvester-wamaya/to-do-list',
   },
   {
     id: 4,
-    name: ['Website Portfolio', 'Keeping track of hundreds  of components website'],
-    description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img 1.png', 'media/pop.png'],
-    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
-    liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
-    sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
+    name: ['Movie Watchlist', 'Movie Application'],
+    description: ["The App is a movie Watchlist. A user can add movies to the watchlist, mark watched or unwatched and delete movies.", `The App is a movie Watchlist. A user can add movies to watchlist by searching by movie name. Mark watched or unwatched and delete movies. The project fetches movie inforamtion from API: https://online-movie-database.p.rapidapi.com/ The project is coded by React.js, Js, CSS and HTML.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
+    image: ['media/movie.PNG', 'media/pop.png'],
+    technologies: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript'],
+    liveLink: 'https://sylvester-wamaya.github.io/phase-2-project/',
+    sourceLink: 'https://github.com/sylvester-wamaya/phase-2-project',
   },
   {
     id: 5,
@@ -117,7 +115,7 @@ articlElement.innerHTML = `
     <li> <button type="button" class="grey-button">${projects[0].technologies[3]}</button></li>
     <li> <button type="button" class="grey-button">${projects[0].technologies[0]}</button></li>
     <li><button type="button" class="grey-button">${projects[0].technologies[1]}</button></li>
-    <li> <button type="button" class="grey-button">${projects[0].technologies[4]}</button></li>
+    
 </ul>
 <div>
 <button type="button" class="art-btn link-btn">See project</button>
@@ -170,10 +168,10 @@ linkButton.forEach((par, index) => {
     <p class="text">${projects[index].description[2]}</p>
    <div id="mod-btn">
 
-    <a href="#">
+    <a href=${projects[index].liveLink}>
     <button type="button" class="art-btn link-btn">See live<img class="modal-icon" src="media/Icon-see live.png" alt="icon"></button>    
     </a>
-    <a href="#">
+    <a href="${projects[index].sourceLink}">
     <button type="button" class="art-btn link-btn">See source<img class="modal-icon" src="media/Vector.png" alt="icon"></button>
   </a> 
     </div>
@@ -195,10 +193,10 @@ linkButton.forEach((par, index) => {
         <div class="modal-p">
         <p class="text">${projects[index].description[1]}</p>
        <div id="mod-btn">
-       <a href="#">
+       <a href=${projects[index].liveLink}>
          <button type="button" class="art-btn link-btn">See live<img class="modal-icon" src="media/Icon-see live.png" alt="icon"></button>
        <a>
-       <a href="#">
+       <a href=${projects[index].sourceLink}>
          <button type="button" class="art-btn link-btn">See source<img class="modal-icon" src="media/Vector.png" alt="icon"></button>
        <a>  
         </div>
