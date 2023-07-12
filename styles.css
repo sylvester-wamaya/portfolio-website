@@ -13,7 +13,7 @@ body {
 }
 
 #logo {
-  animation: logo 6s ease-in-out infinite alternate;
+  animation: logo 6s ease-in-out 4 alternate;
   position: relative;
 }
 
@@ -169,8 +169,11 @@ small {
   #navbar {
     padding: 0 9.3vw 0 6.4vw;
   }
+  #desk-nav{
+    display: none;
+  }
 
-  #desk-nav {
+  #mobile-nav {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -178,7 +181,7 @@ small {
     height: 100vh;
   }
 
-  .desk-nav {
+  .mobile-nav {
     font-weight: 700;
     font-size: 8.53vw;
     line-height: 11.8vw;
@@ -187,7 +190,7 @@ small {
     padding: 0 4.3vw;
   }
 
-  .desk-nav a {
+  .mobile-nav a {
     color: #fff5e1;
   }
 
@@ -206,7 +209,7 @@ small {
   }
 
   #logo {
-    width: 100%;
+    width: 15%;
     height: auto;
     border-radius: 50%;
   }
@@ -608,6 +611,9 @@ small {
   }
 
   #menu-icon {
+    display: none;
+  }
+  #mobile-nav{
     display: none;
   }
 

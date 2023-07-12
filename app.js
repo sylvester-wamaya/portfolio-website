@@ -1,10 +1,10 @@
 /* Mobile menu on clicking the humburger */
 const width = window.innerWidth;
 const mobileMenu = document.querySelector('#menu-icon');
-const mobileNav = document.querySelector('#desk-nav');
+const mobileNav = document.querySelector('#mobile-nav');
 const logo = document.querySelector('#logo');
 const closeIcon = document.querySelector('#close img');
-const menuList = document.querySelectorAll('.desk-nav');
+const menuList = document.querySelectorAll('.mobile-nav');
 
 function show() {
   mobileNav.style.display = 'flex';
