@@ -398,6 +398,10 @@ small {
     margin: 3.2vw 0;
     padding: 0;
   }
+  #article-btn .grey-button{
+    padding: 1.7vw 2.2vw;
+
+  }
 
   .art-btn {
     padding: 3.2vw;
@@ -577,7 +581,7 @@ small {
     z-index: 50;
     background-color: white;
     width: 90vw;
-    height: auto;
+    height: fit-content;
     overflow-y: scroll;
     overflow-x: hidden;
   }
@@ -627,9 +631,10 @@ small {
   .desk-nav {
     margin-right: 2.2vw;
     font-weight: 600;
-    font-size: 1.3vw;
-    line-height: 1.4vw;
+    font-size: 125%;
+    
   }
+  
 
 
 
@@ -939,12 +944,12 @@ small {
   }
 
   button:hover {
-    padding: 0.83vw;
-    border: solid #f55800;
+   
+    outline: solid 1px #f55800;
     color: #f55800;
     background-color: #fff5e1;
-    transition: all 0.4s;
   }
+   
 
   button:disabled {
     padding: 0.83vw;
