@@ -12,10 +12,24 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+#mobile-nav{
+  display: none;
+}
+
+#desk-nav {
+  display: flex;
+  align-items: center;
+}
+
 #logo {
-  animation: logo 6s ease-in-out 4 alternate;
+  width: 3.5rem;
+  height: auto;
+  border-radius: 50%;
+  animation: logo 6s ease-in-out 8 alternate;
   position: relative;
 }
+
+
 
 .scroll {
   position: fixed;
@@ -204,15 +218,11 @@ small {
   }
 
   #menu-icon {
-    height: 5vw;
-    width: auto;
+    width: 2rem;
+    height: auto;
   }
 
-  #logo {
-    width: 15%;
-    height: auto;
-    border-radius: 50%;
-  }
+
 
   aside {
     order: 2;
@@ -592,7 +602,10 @@ small {
   .project-item .text {
     bottom: 32.53vw;
   }
+
+
 }
+
 
 @media only screen and (min-width: 768px) {
   /* Nav bar styling */
@@ -600,22 +613,16 @@ small {
     padding: 0 10.8vw 0 10.5vw;
   }
 
-  #logo {
-    width: auto;
-    height: 5vw;
-    border-radius: 50%;
-  }
 
-  #close {
+
+  #close, .mobile-nav {
     display: none;
   }
 
   #menu-icon {
     display: none;
   }
-  #mobile-nav{
-    display: none;
-  }
+
 
   .desk-nav {
     margin-right: 2.2vw;
@@ -624,10 +631,7 @@ small {
     line-height: 1.4vw;
   }
 
-  #desk-nav {
-    display: flex;
-    align-items: center;
-  }
+
 
   #home {
     background-image: url(media/desktop-header.png);
