@@ -28,14 +28,12 @@ menuList.forEach((nav) => nav.addEventListener('click', close));
 const projects = [
   {
     id: 1,
-    name: ['Social Finance', 'Social Finance Platform'],
-    description: ["A landing page for a pseudo fintech company. A user can view the company's description, the products, board members, partners and the About section. Developed with HTML.", `A landing page for a pseudo fintech company. A user can view the company's description, the products, board members, partners and the About section. Developed with HTML., when an unknown printer took a galley of type and scrambled it 1960s.
-
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/sofi.png', 'media/sofi.png'],
-    technologies: ['HTML', 'Javascript', 'Ruby on Rails', 'CSS'],
-    liveLink: 'https://sylvester-wamaya.github.io/social-finance/',
-    sourceLink: 'https://github.com/sylvester-wamaya/social-finance',
+    name: ['Dr.Globe App', 'Dr.Globe Appointments Application'],
+    description: ["A doctors' appointments booking platform that allows users to easily book a appointment with a doctor, either for a diagnosis or for a checkup by including a specified loaction and date.", `Dr.Globe is a medical booking website that allows users to easily book a medical appointment with a doctor either for a diagnosis or for a checkup Dr.Globe provides a seamless and reliable appointment booking experience. The app is developed with React on frontend and rails on backend`, 'Dr.Globe is a medical booking website that allows users to easily book a medical appointment with a doctor either for a diagnosis or for a checkup Dr.Globe provides a seamless and reliable appointment booking experience. The app is developed with React on frontend and rails on backend'],
+    image: ['media/doctor.png', 'media/doctor.png'],
+    technologies: ['ReactJs', 'Ruby on Rails', 'Bootstrap'],
+    liveLink: 'https://unrivaled-toffee-4e98df.netlify.app/',
+    sourceLink: 'https://github.com/sylvester-wamaya/doctor-appointment-backend',
   },
   {
     id: 2,
@@ -112,9 +110,9 @@ articlElement.innerHTML = `
 <h2 id="article-h" class="project-title">${projects[0].name[0]}</h2>
 <p  class="article-p text">${projects[0].description[0]}</p>
 <ul class="btn no-style-deco" id="article-btn">
-    <li> <button type="button" class="grey-button">${projects[0].technologies[3]}</button></li>
     <li> <button type="button" class="grey-button">${projects[0].technologies[0]}</button></li>
-    <li><button type="button" class="grey-button">${projects[0].technologies[1]}</button></li>
+    <li> <button type="button" class="grey-button">${projects[0].technologies[1]}</button></li>
+    <li><button type="button" class="grey-button">${projects[0].technologies[2]}</button></li>
     
 </ul>
 <div>
