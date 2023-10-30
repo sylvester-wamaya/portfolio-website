@@ -582,7 +582,8 @@ small {
     background-color: white;
     width: 90vw;
     height: fit-content;
-    overflow-y: scroll;
+    max-height: 95vh;
+    overflow-y: auto;
     overflow-x: hidden;
   }
 
@@ -798,7 +799,7 @@ small {
 
   .project-item:hover {
     padding: 0;
-    border: 0.14vw solid #262626;
+    
     transition: all 0.4s;
     background: none;
   }
@@ -983,7 +984,9 @@ small {
     z-index: 50;
     background-color: white;
     width: 90vw;
-    height: auto;
+    height: 90vw;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   #mod-btn .modal-icon {
