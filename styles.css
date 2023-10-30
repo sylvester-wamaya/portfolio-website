@@ -38,11 +38,12 @@ body {
 }
 
 .proj-img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   z-index: -1;
   object-fit: cover;
 }
+
 
 @keyframes logo {
   0% {
@@ -106,6 +107,7 @@ a {
 .project-item {
   position: relative;
   background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+  
 }
 
 .title {
@@ -984,7 +986,8 @@ small {
     z-index: 50;
     background-color: white;
     width: 90vw;
-    height: 90vw;
+    height: fit-content;
+    max-height: 95vh;
     overflow-y: auto;
     overflow-x: hidden;
   }
