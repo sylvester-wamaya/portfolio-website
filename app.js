@@ -46,14 +46,12 @@ const projects = [
   },
   {
     id: 3,
-    name: ['A To do App', 'To do List Application'],
-    description: ["A to do list application where a user can add tasks edit, mark completed and delete either one by one or all selected items.", `A to do list application where a user can keep track of the to do activities by adding them, editing, marking completed and deleting either one by one or all selected items. Built with Javascript.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/todo.PNG', 'media/pop.png'],
-    technologies: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript'],
-    liveLink: 'https://sylvester-wamaya.github.io/to-do-list/',
-    sourceLink: 'https://github.com/sylvester-wamaya/to-do-list',
+    name: ['Budget App', 'Budget Application'],
+    description: ["A mobile web application that users use to manage and track budgets. One can view category lists and transactions.", `A mobile web application that users use to manage and track budgets. A user can add and view category lists of the budget and transactions. The application has authentication functionalities by use of rails devise`, `A mobile web application that users use to manage and track budgets. A user can add and view category lists of the budget and transactions. The application has authentication functionalities by use of rails devise`],
+    image: ['media/budget.jpeg', 'media/budget.jpeg'],
+    technologies: ['CSS', 'JavaScript', 'Rails'],
+    liveLink: 'https://budget-iuue.onrender.com/',
+    sourceLink: 'https://github.com/sylvester-wamaya/budget-app',
   },
   {
     id: 4,
