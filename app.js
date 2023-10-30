@@ -55,12 +55,12 @@ const projects = [
   },
   {
     id: 4,
-    name: ['Movie Watchlist', 'Movie Application'],
-    description: ["The App is a movie Watchlist. A user can add movies to the watchlist, mark watched or unwatched and delete movies.", `The App is a movie Watchlist. A user can add movies to watchlist by searching by movie name. Mark watched or unwatched and delete movies. The project fetches movie inforamtion from API: https://online-movie-database.p.rapidapi.com/ The project is coded by React.js, Js, CSS and HTML.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/movie.PNG', 'media/pop.png'],
-    technologies: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript'],
-    liveLink: 'https://sylvester-wamaya.github.io/phase-2-project/',
-    sourceLink: 'https://github.com/sylvester-wamaya/phase-2-project',
+    name: ['Recipe web App', 'Food Recipe Application'],
+    description: ["An application that allows users to add food, create recipes, generate shopping lists and modify based on authentication.", `The recipe application allows users to create their own account and manage their recipes. The users can view public recipes and only modify the entries based on the authentication and authorization.`,  `The recipe application allows users to create their own account and manage their recipes. The users can view public recipes and only modify the entries based on the authentication and authorization.`],
+    image: ['media/recipe0.png', 'media/recipe.png'],
+    technologies: ['CSS', 'JavaScript', 'Rails'],
+    liveLink: 'https://recipe-render-3ygr.onrender.com/',
+    sourceLink: 'https://github.com/sylvester-wamaya/Capstone-Project-Recipe',
   },
   {
     id: 5,
@@ -162,10 +162,10 @@ linkButton.forEach((par, index) => {
     <p class="text">${projects[index].description[2]}</p>
    <div id="mod-btn">
 
-    <a href=${projects[index].liveLink}>
+    <a href=${projects[index].liveLink} target="_blank">
     <button type="button" class="art-btn link-btn">See live<img class="modal-icon" src="media/Icon-see live.png" alt="icon"></button>    
     </a>
-    <a href="${projects[index].sourceLink}">
+    <a href="${projects[index].sourceLink}" target="_blank">
     <button type="button" class="art-btn link-btn">See source<img class="modal-icon" src="media/Vector.png" alt="icon"></button>
   </a> 
     </div>
@@ -187,10 +187,10 @@ linkButton.forEach((par, index) => {
         <div class="modal-p">
         <p class="text">${projects[index].description[1]}</p>
        <div id="mod-btn">
-       <a href=${projects[index].liveLink}>
+       <a href=${projects[index].liveLink} target="_blank">
          <button type="button" class="art-btn link-btn">See live<img class="modal-icon" src="media/Icon-see live.png" alt="icon"></button>
        <a>
-       <a href=${projects[index].sourceLink}>
+       <a href=${projects[index].sourceLink} target="_blank">
          <button type="button" class="art-btn link-btn">See source<img class="modal-icon" src="media/Vector.png" alt="icon"></button>
        <a>  
         </div>
