@@ -37,14 +37,12 @@ const projects = [
   },
   {
     id: 2,
-    name: ['Awesome Books', 'Awesome Books Application'],
-    description: ["A book catalogue application. A user can add a book, remove a book and view added books. Developed with Javascript.", `A book catalogue application. A user can add a book, remove a book and view added books. Developed with Javascript., when an unknown printer took a galley of type and scrambled it 1960s.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/book.png', 'media/pop.png'],
-    technologies: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript'],
-    liveLink: 'https://sylvester-wamaya.github.io/awesome_books_E6/',
-    sourceLink: 'https://github.com/sylvester-wamaya/awesome_books_E6',
+    name: ['Crypto Live', 'Crytptocurrency Live Application'],
+    description: ["A mobile design application that users can view a list of coins, their prices and search to view a coin's details.", `A mobile web application that tracks live cryptocurrency coins' statistics. A user can view coins, search and click to view the details of a coin. The application is developed by use of react js, redux, and a cryptocurrency API`, `A mobile web application that tracks live cryptocurrency coins' statistics. A user can view coins, search and click to view the details of a coin. The application is developed by use of react js, redux, and a cryptocurrency API`],
+    image: ['media/crypto.png', 'media/crypto.png'],
+    technologies: ['ReactJS', 'Redux','CSS'],
+    liveLink: 'https://steady-kheer-81bdb4.netlify.app/',
+    sourceLink: 'https://github.com/sylvester-wamaya/crypto-live',
   },
   {
     id: 3,
@@ -131,7 +129,7 @@ projects.forEach((work, value) => {
     <ul class="btn no-style-deco">
         <li> <button type="button" class="grey-button">${projects[value].technologies[0]}</button></li>
         <li> <button type="button" class="grey-button">${projects[value].technologies[1]}</button></li>
-        <li><button type="button" class="grey-button">${projects[value].technologies[3]}</button></li>
+        <li><button type="button" class="grey-button">${projects[value].technologies[2]}</button></li>
         
     </ul>
 <button type="button" class="orange-button link-btn">See project</button> 
