@@ -74,13 +74,11 @@ const projects = [
   {
     id: 6,
     name: ['Space Traveler Hub', 'Space Traveler Hub Application'],
-    description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
+    description: ["The applications connects with Space-X api and allows users to reserve for space exploration ships and join space missions.", `The Space Traveler Hub web application connects to Space-X api and allows users to reserve their slots in the space ships listed and join a space mission. The client can access his/her profile and check the reservations and missions joined.`, `The Space Traveler Hub web application connects to Space-X api and allows users to reserve their slots in the space ships listed and join a space mission. The client can access his/her profile and check the reservations and missions joined.`],
     image: ['media/space.png', 'media/space1.png'],
     technologies:  ['ReactJS', 'Redux','Bootstrap'],
-    liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
-    sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
+    liveLink: 'https://space-travelers-hub-pair.vercel.app/',
+    sourceLink: 'https://github.com/sylvester-wamaya/space-travelers-hub-pair',
   },
   {
     id: 7,
