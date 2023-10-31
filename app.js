@@ -28,7 +28,7 @@ menuList.forEach((nav) => nav.addEventListener('click', close));
 const projects = [
   {
     id: 1,
-    name: ['Dr.Globe App', 'Dr.Globe Appointments Application'],
+    name: ['Dr.Globe', 'Dr.Globe Appointments Application'],
     description: ["A doctors' appointments booking platform that allows users to easily book a appointment with a doctor, either for a diagnosis or for a checkup by including a specified loaction and date.", `Dr.Globe is a medical booking website that allows users to easily book a medical appointment with a doctor either for a diagnosis or for a checkup Dr.Globe provides a seamless and reliable appointment booking experience. The app is developed with React on frontend and rails on backend`, 'Dr.Globe is a medical booking website that allows users to easily book a medical appointment with a doctor either for a diagnosis or for a checkup Dr.Globe provides a seamless and reliable appointment booking experience. The app is developed with React on frontend and rails on backend'],
     image: ['media/doctor.png', 'media/doctor.png'],
     technologies: ['ReactJs', 'Ruby on Rails', 'Bootstrap'],
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     id: 3,
-    name: ['Budget App', 'Budget Application'],
+    name: ['Budget', 'Budget Application'],
     description: ["A mobile web application that users use to manage and track budgets. One can view category lists and transactions.", `A mobile web application that users use to manage and track budgets. A user can add and view category lists of the budget and transactions. The application has authentication functionalities by use of rails devise`, `A mobile web application that users use to manage and track budgets. A user can add and view category lists of the budget and transactions. The application has authentication functionalities by use of rails devise`],
     image: ['media/budget.jpeg', 'media/budget.jpeg'],
     technologies: ['CSS', 'JavaScript', 'Rails'],
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     id: 4,
-    name: ['Recipe web App', 'Food Recipe Application'],
+    name: ['Recipe', 'Food Recipe Application'],
     description: ["An application that allows users to add food, create recipes, generate shopping lists and modify based on authentication.", `The recipe application allows users to create their own account and manage their recipes. The users can view public recipes and only modify the entries based on the authentication and authorization.`,  `The recipe application allows users to create their own account and manage their recipes. The users can view public recipes and only modify the entries based on the authentication and authorization.`],
     image: ['media/recipe0.png', 'media/recipe.png'],
     technologies: ['CSS', 'JavaScript', 'Rails'],
@@ -64,23 +64,21 @@ const projects = [
   },
   {
     id: 5,
-    name: ['Multi-Post Stories', 'Keeping track of hundreds  of components website'],
-    description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img 1.png', 'media/pop.png'],
-    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
-    liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
-    sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
+    name: ['Blog', 'Blog Application'],
+    description: ["Blog App is an application that allows users to create posts, read posts, like posts or comments on posts.", `Blog web applications allows users to create posts, read posts, like posts or comment on posts. The application has authentication and users interract in the application guided by the authorization configured.`,  `Blog web applications allows users to create posts, read posts, like posts or comment on posts. The application has authentication and users interract in the application guided by the authorization configured.`],
+    image: ['media/blog.png', 'media/blog1.png'],
+    technologies: ['CSS', 'JavaScript', 'Rails'],
+    liveLink: 'https://rails-c2v3.onrender.com/',
+    sourceLink: 'https://github.com/sylvester-wamaya/blog-app',
   },
   {
     id: 6,
-    name: ['Data Dashboard Healthcare', 'Keeping track of hundreds  of components website'],
+    name: ['Space Traveler Hub', 'Space Traveler Hub Application'],
     description: ["A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.", `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'],
-    image: ['media/Img 1.png', 'media/pop.png'],
-    technologies: ['HTML', 'Bootstrap', 'Ruby on Rails', 'Ruby'],
+    image: ['media/space.png', 'media/space1.png'],
+    technologies:  ['ReactJS', 'Redux','Bootstrap'],
     liveLink: 'https://sylvester-wamaya.github.io/portfolio-website/',
     sourceLink: 'https://github.com/sylvester-wamaya/portfolio-website',
   },
