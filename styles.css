@@ -44,6 +44,11 @@ body {
   object-fit: cover;
 }
 
+#intro a:hover {
+  color: #f55800;
+
+}
+
 
 @keyframes logo {
   0% {
