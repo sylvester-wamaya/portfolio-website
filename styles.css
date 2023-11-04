@@ -197,6 +197,10 @@ small {
     height: 100vh;
   }
 
+  article .art-btn{
+    width: 100%;
+  }
+
   .mobile-nav {
     font-weight: 700;
     font-size: 8.53vw;
@@ -612,7 +616,9 @@ small {
   .project-item .text {
     bottom: 32.53vw;
   }
-
+article{
+  margin-bottom: 2rem;
+}
 
 }
 
@@ -734,7 +740,7 @@ small {
   article {
     width: 28vw;
     float: right;
-    margin-bottom: 9.5vw;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
   }
